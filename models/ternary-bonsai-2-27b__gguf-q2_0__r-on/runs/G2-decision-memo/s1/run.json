@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "G2-decision-memo",
+  "test_version": 1,
+  "test_hash": "76f4e920091fee50",
+  "category": "general",
+  "model": {
+    "key": "ternary-bonsai-2-27b",
+    "slug": "ternary-bonsai-2-27b__gguf-q2_0__r-on"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "completed",
+  "started": "2026-11-20T22:04:19+00:00",
+  "finished": "2026-11-20T22:18:39+00:00",
+  "wall_s": 860.4,
+  "metrics": {
+    "prompt_tokens": 580,
+    "completion_tokens": 11502,
+    "reasoning_chars": 40772,
+    "answer_chars": 2113,
+    "ttft_s": 6.2288372090006305,
+    "ttfa_s": 822.898872709,
+    "total_s": 858.8759822499997,
+    "gen_tps": 13.48975372391229,
+    "prompt_tps": 93.11529271657696,
+    "finish_reason": "stop"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 4667.0,
+    "swap_mb_after": 4667.0
+  },
+  "scripted": {
+    "points": 3.0,
+    "max": 3.0
+  }
+}

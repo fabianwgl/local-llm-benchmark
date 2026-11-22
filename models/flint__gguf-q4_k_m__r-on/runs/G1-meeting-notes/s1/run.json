@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "G1-meeting-notes",
+  "test_version": 1,
+  "test_hash": "48c756bad93dfcd0",
+  "category": "general",
+  "model": {
+    "key": "recursivesi/flint",
+    "slug": "flint__gguf-q4_k_m__r-on"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "completed",
+  "started": "2026-11-21T13:22:10+00:00",
+  "finished": "2026-11-21T13:31:49+00:00",
+  "wall_s": 579.0,
+  "metrics": {
+    "prompt_tokens": 3840,
+    "completion_tokens": 14458,
+    "reasoning_chars": 55404,
+    "answer_chars": 2495,
+    "ttft_s": 7.643771208000544,
+    "ttfa_s": 540.694664916,
+    "total_s": 576.6713131660017,
+    "gen_tps": 25.408260468817723,
+    "prompt_tps": 502.3698244631875,
+    "finish_reason": "stop"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 11423.88,
+    "swap_mb_after": 12393.69
+  },
+  "scripted": {
+    "points": 4.0,
+    "max": 4.0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "G1-meeting-notes",
+  "test_version": 1,
+  "test_hash": "48c756bad93dfcd0",
+  "category": "general",
+  "model": {
+    "key": "ternary-bonsai-2-27b",
+    "slug": "ternary-bonsai-2-27b__gguf-q2_0__r-on"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "length",
+  "started": "2026-11-20T21:42:19+00:00",
+  "finished": "2026-11-20T22:04:19+00:00",
+  "wall_s": 1319.7,
+  "metrics": {
+    "prompt_tokens": 4245,
+    "completion_tokens": 16384,
+    "reasoning_chars": 58194,
+    "answer_chars": 1531,
+    "ttft_s": 44.16699508399688,
+    "ttfa_s": 1276.059021541998,
+    "total_s": 1317.792903999998,
+    "gen_tps": 12.864059913750204,
+    "prompt_tps": 96.11249286773642,
+    "finish_reason": "length"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 4683.0,
+    "swap_mb_after": 4667.0
+  },
+  "scripted": {
+    "points": 0.0,
+    "max": 4.0
+  }
+}

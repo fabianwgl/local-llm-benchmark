@@ -1,0 +1,24 @@
+# Secrets and local settings
+.env
+.claude/
+
+# Answer keys stay private so the tests keep measuring something (see README).
+# test.json is included because its judged criteria spell out the expected answers.
+base/tests/*/hidden/
+base/tests/*/rubric.md
+base/tests/*/test.json
+
+# Raw run artifacts (transcripts, diffs, check logs, verdicts) contain full solutions.
+# Only run.json (how the run ended, timing, token and tool-call counts) is published.
+models/*/runs/**
+!models/*/runs/**/
+!models/*/runs/**/run.json
+
+# Working folder for blind judging packets (contains rubrics)
+judging/
+
+# Noise
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store

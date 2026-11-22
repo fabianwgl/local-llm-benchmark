@@ -1,0 +1,367 @@
+{
+  "model": "prism-ml/bonsai-27b",
+  "slug": "bonsai-27b__mlx-2bit__r-on",
+  "when": "2026-11-20T01:20:54+00:00",
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "load_seconds": 40.938084041,
+  "suite_version": "0.9.0",
+  "basic": {
+    "content": "\n\nOK",
+    "reasoning_chars": 544,
+    "reasoning_field": "reasoning_content",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 15,
+      "completion_tokens": 154,
+      "total_tokens": 169,
+      "completion_tokens_details": {
+        "reasoning_tokens": 150
+      }
+    },
+    "aborted": null,
+    "error": null,
+    "timing": {
+      "ttft_s": 0.8582481250000029,
+      "ttfa_s": 10.277201792,
+      "total_s": 10.278037459000004
+    },
+    "gen_tps": 16.348560943305696,
+    "first_chunks": [
+      {
+        "id": "chatcmpl-aw8x9yzeedzz18fpwtm9i",
+        "object": "chat.completion.chunk",
+        "created": 1795137654,
+        "model": "bench-bonsai-27b__mlx-2bit__r-on",
+        "system_fingerprint": "bench-bonsai-27b__mlx-2bit__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "role": "assistant",
+              "reasoning_content": "Here"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-aw8x9yzeedzz18fpwtm9i",
+        "object": "chat.completion.chunk",
+        "created": 1795137654,
+        "model": "bench-bonsai-27b__mlx-2bit__r-on",
+        "system_fingerprint": "bench-bonsai-27b__mlx-2bit__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "reasoning_content": "'s"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-aw8x9yzeedzz18fpwtm9i",
+        "object": "chat.completion.chunk",
+        "created": 1795137654,
+        "model": "bench-bonsai-27b__mlx-2bit__r-on",
+        "system_fingerprint": "bench-bonsai-27b__mlx-2bit__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "reasoning_content": " a"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      }
+    ],
+    "last_chunks": [
+      {
+        "id": "chatcmpl-aw8x9yzeedzz18fpwtm9i",
+        "object": "chat.completion.chunk",
+        "created": 1795137654,
+        "model": "bench-bonsai-27b__mlx-2bit__r-on",
+        "system_fingerprint": "bench-bonsai-27b__mlx-2bit__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {},
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-aw8x9yzeedzz18fpwtm9i",
+        "object": "chat.completion.chunk",
+        "created": 1795137654,
+        "model": "bench-bonsai-27b__mlx-2bit__r-on",
+        "system_fingerprint": "bench-bonsai-27b__mlx-2bit__r-on",
+        "choices": [],
+        "usage": {
+          "prompt_tokens": 15,
+          "completion_tokens": 154,
+          "total_tokens": 169,
+          "completion_tokens_details": {
+            "reasoning_tokens": 150
+          }
+        }
+      }
+    ]
+  },
+  "seed_repeat": {
+    "same_seed_identical": false,
+    "same_seed_answer_identical": true,
+    "different_seed_differs": false,
+    "a": "",
+    "b": "",
+    "c": ""
+  },
+  "reasoning_switch": {
+    "baseline": {
+      "content": "\n\n391",
+      "reasoning_chars": 529,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [],
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 26,
+        "completion_tokens": 239,
+        "total_tokens": 265,
+        "completion_tokens_details": {
+          "reasoning_tokens": 233
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 0.635469124999986,
+        "ttfa_s": 15.42081141700001,
+        "total_s": 15.421192624999975
+      },
+      "gen_tps": 16.164241134361816
+    },
+    "reasoning_effort_none": {
+      "reasoning_chars": 0,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 4
+    },
+    "reasoning_effort_low": {
+      "reasoning_chars": 491,
+      "content": "\n\n391",
+      "error": null,
+      "completion_tokens": 223
+    },
+    "reasoning_obj_low": {
+      "reasoning_chars": 413,
+      "content": "\n\n391",
+      "error": null,
+      "completion_tokens": 188
+    },
+    "reasoning_off": {
+      "reasoning_chars": 559,
+      "content": "\n\n391",
+      "error": null,
+      "completion_tokens": 238
+    },
+    "enable_thinking_false": {
+      "reasoning_chars": 1033,
+      "content": "\n\n391",
+      "error": null,
+      "completion_tokens": 500
+    },
+    "chat_template_kwargs": {
+      "reasoning_chars": 525,
+      "content": "\n\n391",
+      "error": null,
+      "completion_tokens": 236
+    }
+  },
+  "tools": {
+    "first": {
+      "content": "\n\n",
+      "reasoning_chars": 663,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [
+        {
+          "id": "475718346",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Paris\"}"
+          }
+        }
+      ],
+      "finish_reason": "tool_calls",
+      "usage": {
+        "prompt_tokens": 309,
+        "completion_tokens": 214,
+        "total_tokens": 523,
+        "completion_tokens_details": {
+          "reasoning_tokens": 186
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 3.407978500000013,
+        "ttfa_s": 15.064305375000004,
+        "total_s": 18.080442542000014
+      },
+      "gen_tps": 14.585143939519902
+    },
+    "after_result": {
+      "content": "\n\nThe weather in Paris is currently 18°C with cloudy skies.",
+      "reasoning_chars": 233,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [],
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 368,
+        "completion_tokens": 70,
+        "total_tokens": 438,
+        "completion_tokens_details": {
+          "reasoning_tokens": 53
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 1.6192994580000004,
+        "ttfa_s": 5.00522083300001,
+        "total_s": 5.756372583000029
+      },
+      "gen_tps": 16.920174694760686
+    },
+    "parallel": {
+      "content": "\n\n\n",
+      "reasoning_chars": 541,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [
+        {
+          "id": "798838189",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Paris\"}"
+          }
+        },
+        {
+          "id": "337649159",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Tokyo\"}"
+          }
+        }
+      ],
+      "finish_reason": "tool_calls",
+      "usage": {
+        "prompt_tokens": 317,
+        "completion_tokens": 206,
+        "total_tokens": 523,
+        "completion_tokens_details": {
+          "reasoning_tokens": 151
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 0.9709241249999536,
+        "ttfa_s": 10.456592,
+        "total_s": 13.877821707999999
+      },
+      "gen_tps": 15.960458249186626
+    },
+    "parallel_count": 2
+  },
+  "image": {
+    "content": "",
+    "reasoning_chars": 4117,
+    "reasoning_field": "reasoning_content",
+    "tool_calls": [],
+    "finish_reason": "length",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 1023,
+      "total_tokens": 1059,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1023
+      }
+    },
+    "aborted": null,
+    "error": null,
+    "timing": {
+      "ttft_s": 3.4423697089999905,
+      "ttfa_s": null,
+      "total_s": 67.64123474999997
+    },
+    "gen_tps": 15.934861143521324
+  },
+  "structured": {
+    "content": "",
+    "reasoning_chars": 37,
+    "reasoning_field": "reasoning_content",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 26,
+      "completion_tokens": 19,
+      "total_tokens": 45,
+      "completion_tokens_details": {
+        "reasoning_tokens": 18
+      }
+    },
+    "aborted": null,
+    "error": null,
+    "timing": {
+      "ttft_s": 1.835712166999997,
+      "ttfa_s": null,
+      "total_s": 2.6683156670000017
+    },
+    "gen_tps": 22.81998574351404,
+    "parsed": null
+  },
+  "abort_then_ask": {
+    "aborted": "wall_clock",
+    "abort_after_s": 4.1,
+    "next_request_total_s": 8.918336249999982,
+    "next_content": "\n\nOK"
+  },
+  "overflow_at_4096": {
+    "content": "",
+    "reasoning_chars": 0,
+    "reasoning_field": null,
+    "tool_calls": [],
+    "finish_reason": null,
+    "usage": null,
+    "aborted": null,
+    "error": {
+      "status": 200,
+      "body": "{\"message\": \"The number of tokens to keep from the initial prompt is greater than the context length. Try to load the model with a larger context length, or provide a shorter input\"}"
+    },
+    "timing": {
+      "ttft_s": null,
+      "ttfa_s": null,
+      "total_s": 0.04008974999999282
+    },
+    "gen_tps": null,
+    "note": "loaded at 4096 context; prompt is roughly 10k tokens"
+  }
+}

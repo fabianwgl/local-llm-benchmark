@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tessera"
+version = "0.14.2"
+description = "A small, durable job scheduler backed by PostgreSQL or SQLite"
+requires-python = ">=3.9"
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+postgres = ["psycopg2-binary>=2.9"]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+tessera = "tessera.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tessera*"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

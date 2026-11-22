@@ -1,0 +1,12 @@
+cron[31877]: (finance) CMD (cd /srv/finance-nightly && make nightly)
+started 2025-03-04T02:30:01Z on batch-01
+bash bin/nightly.sh
+nightly: migration 001_init.sql
+nightly: migration 002_order_channel.sql
+Parse error near line 3: duplicate column name: channel
+Parse error near line 5: index orders_by_day_channel already exists
+nightly: imported items_2025-03-01.csv
+nightly: imported items_2025-03-02.csv
+nightly: error: unknown input file: items_2025-03-03
+make: *** [Makefile:5: nightly] Error 1
+finished 2025-03-04T02:30:02Z, exit status 2

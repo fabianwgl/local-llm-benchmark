@@ -1,0 +1,11 @@
+{
+  "name": "shopfront-api",
+  "version": "1.14.2",
+  "private": true,
+  "type": "module",
+  "description": "Pricing and document API for the shop: cart pricing, B2B quotes, invoices.",
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit -p ."
+  }
+}

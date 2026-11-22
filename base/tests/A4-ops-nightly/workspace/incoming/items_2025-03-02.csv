@@ -1,0 +1,9 @@
+order_id,line_no,sku,description,qty,unit_price_cents
+W-10405,1,CANDLE-SOY-S,"Soy candle, small",3,990
+W-10406,1,MUG-350-GR,"Mug, green, 350 ml",1,1250
+W-10407,1,TEA-EB-100,"English Breakfast tea, 100 g",2,890
+W-10407,2,TEA-GR-250,"Green tea, loose, 250 g",1,1450
+M-77010,1,MUG-350-BL,"Mug, blue, 350 ml",4,1190
+M-77011,1,POSTER-A2-NL,"Poster ""Northern Lights"", A2",1,2390
+M-77011,2,FRAME-A2-OAK,"Oak frame, A2",1,3790
+M-77012,1,CANDLE-SOY-L,"Soy candle, large",1,1790

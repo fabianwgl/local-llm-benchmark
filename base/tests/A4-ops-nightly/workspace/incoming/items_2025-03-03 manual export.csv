@@ -1,0 +1,5 @@
+order_id,line_no,sku,description,qty,unit_price_cents
+W-10408,1,SPN-WD-01,Wooden spoon,4,350
+W-10408,2,MUG-350-GR,"Mug, green, 350 ml",2,1250
+P-30102,1,TEA-EB-100,"English Breakfast tea, 100 g",3,890
+W-10409,1,FRAME-A2-OAK,"Oak frame, A2",1,3990

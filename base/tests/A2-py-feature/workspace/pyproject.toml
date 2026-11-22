@@ -1,0 +1,12 @@
+[project]
+name = "tasktrack"
+version = "1.4.0"
+description = "A small command-line task tracker."
+requires-python = ">=3.9"
+
+[project.scripts]
+tasktrack = "tasktrack.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

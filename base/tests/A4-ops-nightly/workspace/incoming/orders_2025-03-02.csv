@@ -1,0 +1,4 @@
+order_id,ordered_on,customer,channel,shipping_cents,status
+W-10405,2025-03-02,"Nasser, Farid",web,495,paid
+W-10406,2025-03-02,Elif Kaya,web,495,pending
+W-10407,2025-03-02,"Wilson, Jarrah",web,495,paid

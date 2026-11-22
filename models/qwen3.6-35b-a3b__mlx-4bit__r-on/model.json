@@ -1,0 +1,50 @@
+{
+  "slug": "qwen3.6-35b-a3b__mlx-4bit__r-on",
+  "key": "qwen/qwen3.6-35b-a3b",
+  "identifier": "bench-qwen3.6-35b-a3b__mlx-4bit__r-on",
+  "display_name": "Qwen3.6 35B A3B",
+  "publisher": "qwen",
+  "architecture": "qwen3_5_moe",
+  "format": "mlx",
+  "quantization": {
+    "name": "4bit",
+    "bits_per_weight": 4
+  },
+  "params": "35B",
+  "size_bytes": 20429364306,
+  "capabilities": {
+    "vision": true,
+    "trained_for_tool_use": true,
+    "reasoning": {
+      "allowed_options": [
+        "off",
+        "on"
+      ],
+      "default": "on"
+    }
+  },
+  "reasoning_level": "on",
+  "reasoning_effort_sent": null,
+  "load_config": {
+    "context_length": 80000,
+    "parallel": 1
+  },
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "updated": "2026-11-20T13:58:58+00:00",
+  "last_load_seconds": 25.7
+}

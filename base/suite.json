@@ -1,0 +1,61 @@
+{
+  "suite": "local-llm-bench",
+  "version": "0.9.0",
+  "frozen": false,
+  "server": "http://localhost:1234",
+  "context_length": 80000,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "seeds": [1],
+  "limits": {
+    "single_max_tokens": 16384,
+    "agent_step_max_tokens": 8192,
+    "agent_max_steps": 40,
+    "agent_total_completion_tokens": 48000,
+    "agent_wall_clock_s": 5400,
+    "single_wall_clock_s": 1800,
+    "cases_max_turns": 4,
+    "cases_turn_max_tokens": 6000,
+    "cases_wall_clock_s": 3600,
+    "cmd_timeout_default_s": 60,
+    "cmd_timeout_max_s": 120,
+    "tool_output_chars": 8000,
+    "tool_output_head": 5000,
+    "tool_output_tail": 3000,
+    "read_file_max_lines": 400,
+    "max_tool_calls_per_reply": 8,
+    "nudges_consecutive": 2,
+    "nudges_total": 6,
+    "http_idle_timeout_s": 1800,
+    "context_margin_tokens": 1024,
+    "check_timeout_s": 300
+  },
+  "categories": {
+    "agentic": "Agentic coding",
+    "swe": "Single-shot engineering",
+    "long": "Long-context",
+    "general": "General",
+    "vision": "Vision"
+  },
+  "core_weights": {
+    "agentic": 45,
+    "swe": 30,
+    "long": 15,
+    "general": 10
+  },
+  "sandbox": {
+    "image": "llm-bench-sandbox:1",
+    "memory": "2g",
+    "cpus": "4",
+    "pids_limit": 512
+  },
+  "system_prompts": {
+    "single": "You are a careful, precise assistant helping a software engineer. Answer the task directly. Follow the requested output format exactly.",
+    "agentic": "You are a software engineer working in a repository at /work inside a Linux container. There is no network access.\n\nYou complete the task by calling tools: read_file, write_file, edit_file, run_command (bash), and finish.\n\nRules:\n- Act through tool calls. Explore the repository before changing it.\n- Verify your work by running the project's tests or commands.\n- You have a budget of {max_steps} steps (one step is one reply from you), so be efficient.\n- When the task is complete, call finish with a short summary of what you changed and why. The run only ends when you call finish."
+  },
+  "canary": "BENCH-CANARY-b36a071d905be48e"
+}

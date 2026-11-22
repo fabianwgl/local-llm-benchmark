@@ -1,0 +1,4 @@
+order_id,ordered_on,customer,channel,shipping_cents,status
+M-77010,2025-03-02,"Bekele, Dawit",marketplace,0,paid
+M-77011,2025-03-02,Emi Sato,marketplace,450,paid
+M-77012,2025-03-02,"Ortiz, Carmen",marketplace,0,refunded

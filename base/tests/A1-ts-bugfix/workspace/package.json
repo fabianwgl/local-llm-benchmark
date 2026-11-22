@@ -1,0 +1,11 @@
+{
+  "name": "invoice-kit",
+  "version": "2.3.1",
+  "private": true,
+  "type": "module",
+  "description": "Invoice maths in integer cents: totals, discounts, tax, credit notes, payment splits.",
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit -p ."
+  }
+}

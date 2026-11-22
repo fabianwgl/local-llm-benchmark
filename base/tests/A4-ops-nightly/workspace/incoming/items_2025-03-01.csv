@@ -1,0 +1,10 @@
+order_id,line_no,sku,description,qty,unit_price_cents
+W-10401,1,MUG-350-BL,"Mug, blue, 350 ml",2,1250
+W-10401,2,TEA-EB-100,"English Breakfast tea, 100 g",1,890
+W-10401,3,SPN-WD-01,Wooden spoon,1,350
+W-10402,1,CANDLE-SOY-L,"Soy candle, large",1,1890
+W-10403,1,MUG-350-BL,"Mug, blue, 350 ml",1,1250
+W-10404,1,POSTER-A2-NL,"Poster ""Northern Lights"", A2",1,2490
+W-10404,2,FRAME-A2-OAK,"Oak frame, A2",1,3990
+P-30101,1,TEA-GR-250,"Green tea, loose, 250 g",2,1450
+P-30101,2,MUG-350-BL,"Mug, blue, 350 ml",2,1250

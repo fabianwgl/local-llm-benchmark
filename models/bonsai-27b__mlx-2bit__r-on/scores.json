@@ -1,0 +1,95 @@
+{
+  "slug": "bonsai-27b__mlx-2bit__r-on",
+  "suite_version": "0.9.0",
+  "generated": "2026-11-22",
+  "core": 31.399700000000003,
+  "core_complete": false,
+  "categories": {
+    "agentic": 23.666,
+    "swe": 32.5,
+    "long": 50.0,
+    "general": 35.0,
+    "vision": 69.165
+  },
+  "vision_na": false,
+  "tests": {
+    "A1-ts-bugfix": {
+      "score": 8.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A2-py-feature": {
+      "score": 1.333,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A3-rust-repair": {
+      "score": 0.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A4-ops-nightly": {
+      "score": 1.5,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A5-ts-refactor": {
+      "score": 1.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S1-code-review": {
+      "score": 2.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S2-root-cause": {
+      "score": 3.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S3-sql": {
+      "score": 0.0,
+      "state": "ok",
+      "spread": null
+    },
+    "S4-tools": {
+      "score": 8.0,
+      "state": "ok",
+      "spread": null
+    },
+    "L1-log-root-cause": {
+      "score": 6.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "L2-codebase-qa": {
+      "score": 4.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "G1-meeting-notes": {
+      "score": 4.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "G2-decision-memo": {
+      "score": 3.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "V1-terminal-screenshot": {
+      "score": 6.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "V2-architecture-diagram": {
+      "score": 7.833,
+      "state": "judge_pending",
+      "spread": null
+    }
+  },
+  "tool_call_validity": 0.994413407821229,
+  "gen_tps": 16.03994141250449,
+  "suite_wall_s": 17437.799999999996
+}

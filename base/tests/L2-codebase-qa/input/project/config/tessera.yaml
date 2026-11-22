@@ -1,0 +1,48 @@
+# tessera production configuration.
+# Keys not listed here keep their built-in defaults (tessera/config/defaults.py).
+
+node:
+  data_dir: /srv/tessera
+
+api:
+  port: 8740
+  max_body_bytes: 2MiB
+  idempotency_header: X-Tessera-Idem-Key
+  idempotency_ttl: 48h
+
+jobs:
+  max_payload_bytes: 64KiB
+  payload_overflow: spill
+  max_runtime: 30m
+
+retry:
+  max_attempts: 6
+  base_delay: 5s
+  max_delay: 10m
+  policies:
+    report.render:
+      base_delay: 15s
+      factor: 3
+    email.send:
+      base_delay: 1s
+      max_delay: 1m
+      max_attempts: 10
+    billing.charge:
+      max_attempts: 3
+      multiplier: 4
+
+worker:
+  concurrency: 8
+  queues: [default, reports, mail]
+  lease_ttl: 90s
+
+leader:
+  lease_ttl: 20s
+  renew_every: 5s
+
+storage:
+  url: postgresql://tessera@db.internal:5432/tessera
+  pool_size: 20
+
+logging:
+  format: json

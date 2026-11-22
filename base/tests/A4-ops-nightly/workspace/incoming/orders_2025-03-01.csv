@@ -1,0 +1,6 @@
+order_id,ordered_on,customer,channel,shipping_cents,status
+W-10401,2025-03-01,"Lindqvist, Greta",web,495,paid
+W-10402,2025-03-01,Ana Torres,web,495,paid
+W-10403,2025-03-01,"Okafor, Ben",web,495,cancelled
+W-10404,2025-03-01,Hoang Minh,web,995,paid
+P-30101,2025-03-01,"Carvalho, Ines",phone,795,paid

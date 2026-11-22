@@ -1,0 +1,58 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "A2-py-feature",
+  "test_version": 1,
+  "test_hash": "c852bde440915923",
+  "category": "agentic",
+  "model": {
+    "key": "qwen/qwen3.8-27b",
+    "slug": "qwen3.8-27b__mlx-4bit__r-xhigh"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "wall_clock",
+  "started": "2026-11-20T23:52:58+00:00",
+  "finished": "2026-11-21T01:23:08+00:00",
+  "wall_s": 5410.1,
+  "metrics": {
+    "steps": 26,
+    "completion_tokens": 38452,
+    "prompt_tokens_last": 33357,
+    "reasoning_chars": 76286,
+    "usage_estimated": true,
+    "model_time_s": 5393.9,
+    "gen_tps": 7.968006022063112,
+    "counters": {
+      "tool_calls": 35,
+      "tool_calls_valid": 35,
+      "invalid_json": 0,
+      "unknown_tool": 0,
+      "missing_args": 0,
+      "tool_errors": 0,
+      "malformed_text_calls": 0,
+      "no_action_replies": 0,
+      "length_cutoffs": 1,
+      "nudges": 1,
+      "dropped_calls": 0
+    },
+    "tool_call_validity": 1.0
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 4595.0,
+    "swap_mb_after": 6983.88
+  },
+  "scripted": {
+    "points": 8.0,
+    "max": 8.0
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "model": "ternary-bonsai-2-27b",
+  "slug": "ternary-bonsai-2-27b__gguf-q2_0__r-on",
+  "when": "2026-11-20T01:36:36+00:00",
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "load_seconds": null,
+  "suite_version": "0.9.0",
+  "basic": {
+    "content": "OK",
+    "reasoning_chars": 126,
+    "reasoning_field": "reasoning_content",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 57,
+      "completion_tokens": 36,
+      "total_tokens": 93,
+      "completion_tokens_details": {
+        "reasoning_tokens": 31
+      }
+    },
+    "aborted": null,
+    "error": null,
+    "timing": {
+      "ttft_s": 1.039424292,
+      "ttfa_s": 3.4936891250000004,
+      "total_s": 3.5721712090000004
+    },
+    "gen_tps": 14.213816531910517,
+    "first_chunks": [
+      {
+        "id": "chatcmpl-68ws77y7zxea3htbkuf9jt",
+        "object": "chat.completion.chunk",
+        "created": 1795138596,
+        "model": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "system_fingerprint": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "role": "assistant",
+              "reasoning_content": "The"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-68ws77y7zxea3htbkuf9jt",
+        "object": "chat.completion.chunk",
+        "created": 1795138596,
+        "model": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "system_fingerprint": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "reasoning_content": " user"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-68ws77y7zxea3htbkuf9jt",
+        "object": "chat.completion.chunk",
+        "created": 1795138596,
+        "model": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "system_fingerprint": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {
+              "reasoning_content": " wants"
+            },
+            "logprobs": null,
+            "finish_reason": null
+          }
+        ]
+      }
+    ],
+    "last_chunks": [
+      {
+        "id": "chatcmpl-68ws77y7zxea3htbkuf9jt",
+        "object": "chat.completion.chunk",
+        "created": 1795138596,
+        "model": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "system_fingerprint": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "choices": [
+          {
+            "index": 0,
+            "delta": {},
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ]
+      },
+      {
+        "id": "chatcmpl-68ws77y7zxea3htbkuf9jt",
+        "object": "chat.completion.chunk",
+        "created": 1795138596,
+        "model": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "system_fingerprint": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+        "choices": [],
+        "usage": {
+          "prompt_tokens": 57,
+          "completion_tokens": 36,
+          "total_tokens": 93,
+          "completion_tokens_details": {
+            "reasoning_tokens": 31
+          }
+        }
+      }
+    ]
+  },
+  "seed_repeat": {
+    "same_seed_identical": true,
+    "different_seed_differs": true,
+    "a": "The lighthouse didn't just warn ships of the rocks; it whispered ancient secrets to the moon, its beam a golden needle stitching the dark ocean back together every night.",
+    "b": "The lighthouse didn't just warn ships of the rocks; it whispered ancient secrets to the moon, its beam a golden needle stitching the dark ocean back together every night.",
+    "c": "The lighthouse did not merely guide ships to shore; it whispered secrets of the deep to the moon, trading its beam for the silver memories of drowned sailors."
+  },
+  "reasoning_switch": {
+    "baseline": {
+      "content": "391",
+      "reasoning_chars": 96,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [],
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 57,
+        "total_tokens": 125,
+        "completion_tokens_details": {
+          "reasoning_tokens": 50
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 0.5491142080000007,
+        "ttfa_s": 4.314044541000001,
+        "total_s": 4.525870707999999
+      },
+      "gen_tps": 14.333288950429834
+    },
+    "reasoning_effort_none": {
+      "reasoning_chars": 0,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 4
+    },
+    "reasoning_effort_low": {
+      "reasoning_chars": 96,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 57
+    },
+    "reasoning_obj_low": {
+      "reasoning_chars": 96,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 57
+    },
+    "reasoning_off": {
+      "reasoning_chars": 96,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 57
+    },
+    "enable_thinking_false": {
+      "reasoning_chars": 96,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 57
+    },
+    "chat_template_kwargs": {
+      "reasoning_chars": 96,
+      "content": "391",
+      "error": null,
+      "completion_tokens": 57
+    }
+  },
+  "tools": {
+    "first": {
+      "content": "",
+      "reasoning_chars": 197,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [
+        {
+          "id": "2ddkA1QEebBDX21BDJzMqkw6P1ZaVbF2",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Paris\",\"unit\":\"celsius\"}"
+          }
+        }
+      ],
+      "finish_reason": "tool_calls",
+      "usage": {
+        "prompt_tokens": 347,
+        "completion_tokens": 89,
+        "total_tokens": 436,
+        "completion_tokens_details": {
+          "reasoning_tokens": 47
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 4.079029875000003,
+        "ttfa_s": 8.172588291000004,
+        "total_s": 10.403738666000002
+      },
+      "gen_tps": 14.071794123809488
+    },
+    "after_result": {
+      "content": "It's currently **18°C (64°F)** in Paris, with **cloudy** skies.",
+      "reasoning_chars": 99,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [],
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 419,
+        "completion_tokens": 49,
+        "total_tokens": 468,
+        "completion_tokens_details": {
+          "reasoning_tokens": 23
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 1.1516385420000006,
+        "ttfa_s": 3.0359155839999943,
+        "total_s": 4.624581458999998
+      },
+      "gen_tps": 14.109071519760898
+    },
+    "parallel": {
+      "content": "",
+      "reasoning_chars": 381,
+      "reasoning_field": "reasoning_content",
+      "tool_calls": [
+        {
+          "id": "ZIyOpQTlnkj4gJWwH6VpbxlMLCeQbaEF",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Paris\",\"unit\":\"celsius\"}"
+          }
+        },
+        {
+          "id": "oe5tJK1BbKP0aOoPvKev2IX8uKmCx3fV",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"city\":\"Tokyo\",\"unit\":\"celsius\"}"
+          }
+        }
+      ],
+      "finish_reason": "tool_calls",
+      "usage": {
+        "prompt_tokens": 355,
+        "completion_tokens": 169,
+        "total_tokens": 524,
+        "completion_tokens_details": {
+          "reasoning_tokens": 87
+        }
+      },
+      "aborted": null,
+      "error": null,
+      "timing": {
+        "ttft_s": 0.5312784999999991,
+        "ttfa_s": 7.491985291999995,
+        "total_s": 12.602624624999997
+      },
+      "gen_tps": 14.000095618996264
+    },
+    "parallel_count": 2
+  },
+  "image": {
+    "content": "left=red right=blue",
+    "reasoning_chars": 256,
+    "reasoning_field": "reasoning_content",
+    "tool_calls": [],
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 141,
+      "completion_tokens": 66,
+      "total_tokens": 207,
+      "completion_tokens_details": {
+        "reasoning_tokens": 56
+      }
+    },
+    "aborted": null,
+    "error": null,
+    "timing": {
+      "ttft_s": 1.3905680419999982,
+      "ttfa_s": 5.61571674999999,
+      "total_s": 6.0451086249999975
+    },
+    "gen_tps": 14.179702340775576,
+    "sees_image": true
+  },
+  "structured": {
+    "reasoning_default": {
+      "json_in_content": true,
+      "json_in_reasoning": false,
+      "content": "{\n  \"name\": \"Marta Kowalski\",\n  \"age\": 34\n}",
+      "reasoning": "We need answer user's request: \"Extract the person as JSON: 'Marta Kowalski turned 34 last week.'\" Need likely output JSON with person name maybe age? Need infer format? They ask extract the person as",
+      "error": null
+    },
+    "reasoning_none": {
+      "json_in_content": true,
+      "json_in_reasoning": false,
+      "content": "{\n  \"name\": \"Marta Kowalski\",\n  \"age\": 34\n}",
+      "reasoning": "",
+      "error": null
+    }
+  },
+  "abort_then_ask": {
+    "aborted": "wall_clock",
+    "abort_after_s": 4.0,
+    "next_request_total_s": 3.030029374999998,
+    "next_content": "OK"
+  },
+  "overflow_at_4096": {
+    "content": "",
+    "reasoning_chars": 0,
+    "reasoning_field": null,
+    "tool_calls": [],
+    "finish_reason": null,
+    "usage": null,
+    "aborted": null,
+    "error": {
+      "status": 200,
+      "body": "{\"message\": \"Engine protocol predict request returned 400: {\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (12564 tokens) exceeds the available context size (4096 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":12564,\\\"n_ctx\\\":4096}}\"}"
+    },
+    "timing": {
+      "ttft_s": null,
+      "ttfa_s": null,
+      "total_s": 0.05342316700000538
+    },
+    "gen_tps": null,
+    "note": "loaded at 4096 context; prompt is roughly 10k tokens"
+  }
+}

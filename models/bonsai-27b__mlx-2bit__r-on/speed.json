@@ -1,0 +1,45 @@
+{
+  "when": "2026-11-20T09:07:08+00:00",
+  "prompt": "Explain how a hash map works, including how collisions are handled and what happens when it resizes. Write about 300 words.",
+  "runs": [
+    {
+      "prompt_tokens": 39,
+      "completion_tokens": 699,
+      "reasoning_chars": 3280,
+      "answer_chars": 0,
+      "ttft_s": 1.0119405000000015,
+      "ttfa_s": null,
+      "total_s": 45.384790625,
+      "gen_tps": 15.752875869611497,
+      "prompt_tps": 38.53981533499247,
+      "finish_reason": "length"
+    },
+    {
+      "prompt_tokens": 39,
+      "completion_tokens": 699,
+      "reasoning_chars": 3093,
+      "answer_chars": 0,
+      "ttft_s": 1.010572124999996,
+      "ttfa_s": null,
+      "total_s": 44.589284916,
+      "gen_tps": 16.03994141250449,
+      "prompt_tps": 38.59200054622539,
+      "finish_reason": "length"
+    },
+    {
+      "prompt_tokens": 39,
+      "completion_tokens": 699,
+      "reasoning_chars": 3082,
+      "answer_chars": 0,
+      "ttft_s": 0.9480343330000096,
+      "ttfa_s": null,
+      "total_s": 43.915839207999994,
+      "gen_tps": 16.267994188520905,
+      "prompt_tps": 41.137750651483636,
+      "finish_reason": "length"
+    }
+  ],
+  "gen_tps_median": 16.03994141250449,
+  "ttft_s_median": 1.010572124999996,
+  "load_seconds": null
+}

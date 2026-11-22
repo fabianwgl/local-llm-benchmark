@@ -1,0 +1,989 @@
+2025-09-10T14:00:00.943Z gateway   INFO  req=af7c30 GET /products/sku-3265 200 43ms
+2025-09-10T14:00:06.369Z gateway   INFO  req=59b5b5 GET /orders/42656 200 34ms
+2025-09-10T14:00:15.000Z db-proxy  INFO  pool stats: active=44 idle=156 waiting=0 max=200
+2025-09-10T14:00:16.455Z gateway   INFO  req=a53f75 GET /products/sku-4054 200 42ms
+2025-09-10T14:00:23.401Z payments  INFO  req=b290e9 charge ok amount=47379 provider_ms=257
+2025-09-10T14:00:23.427Z orders    INFO  req=b290e9 order created id=48211 total=47379
+2025-09-10T14:00:23.431Z gateway   INFO  req=b290e9 POST /checkout 200 353ms
+2025-09-10T14:00:27.553Z gateway   INFO  req=cc0514 GET /orders/41515 200 92ms
+2025-09-10T14:00:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:00:37.904Z gateway   INFO  req=7d8689 GET /products/sku-7906 200 17ms
+2025-09-10T14:00:48.974Z payments  INFO  req=8a128f charge ok amount=31295 provider_ms=401
+2025-09-10T14:00:49.000Z orders    INFO  req=8a128f order created id=48212 total=31295
+2025-09-10T14:00:49.004Z gateway   INFO  req=8a128f POST /checkout 200 419ms
+2025-09-10T14:01:00.075Z payments  INFO  req=a3b96c charge ok amount=9532 provider_ms=272
+2025-09-10T14:01:00.101Z orders    INFO  req=a3b96c order created id=48213 total=9532
+2025-09-10T14:01:00.105Z gateway   INFO  req=a3b96c POST /checkout 200 281ms
+2025-09-10T14:01:08.975Z payments  INFO  req=c56b51 charge ok amount=11860 provider_ms=175
+2025-09-10T14:01:09.001Z orders    INFO  req=c56b51 order created id=48214 total=11860
+2025-09-10T14:01:09.005Z gateway   INFO  req=c56b51 POST /checkout 200 272ms
+2025-09-10T14:01:15.000Z db-proxy  INFO  pool stats: active=34 idle=166 waiting=0 max=200
+2025-09-10T14:01:15.311Z gateway   INFO  req=86064e GET /products/sku-3322 200 48ms
+2025-09-10T14:01:26.645Z gateway   INFO  req=015de1 GET /products/sku-6286 200 53ms
+2025-09-10T14:01:30.986Z gateway   INFO  req=43164c GET /orders/41063 200 30ms
+2025-09-10T14:01:40.970Z gateway   INFO  req=7bec8d GET /orders/46009 200 60ms
+2025-09-10T14:01:46.590Z payments  INFO  req=c37199 charge ok amount=12514 provider_ms=388
+2025-09-10T14:01:46.616Z orders    INFO  req=c37199 order created id=48215 total=12514
+2025-09-10T14:01:46.620Z gateway   INFO  req=c37199 POST /checkout 200 313ms
+2025-09-10T14:01:56.750Z gateway   INFO  req=1a543a GET /products/sku-4054 200 47ms
+2025-09-10T14:02:00.040Z inventory INFO  stock sync finished: 19 skus updated
+2025-09-10T14:02:04.874Z payments  INFO  req=bd1502 charge ok amount=7707 provider_ms=365
+2025-09-10T14:02:04.900Z orders    INFO  req=bd1502 order created id=48216 total=7707
+2025-09-10T14:02:04.904Z gateway   INFO  req=bd1502 POST /checkout 200 354ms
+2025-09-10T14:02:09.317Z gateway   INFO  req=d80641 GET /products/sku-2820 200 49ms
+2025-09-10T14:02:15.000Z db-proxy  INFO  pool stats: active=31 idle=169 waiting=0 max=200
+2025-09-10T14:02:15.007Z payments  INFO  req=2c9d0c charge ok amount=46972 provider_ms=328
+2025-09-10T14:02:15.033Z orders    INFO  req=2c9d0c order created id=48217 total=46972
+2025-09-10T14:02:15.037Z gateway   INFO  req=2c9d0c POST /checkout 200 422ms
+2025-09-10T14:02:19.887Z gateway   INFO  req=ea300e GET /orders/41656 200 26ms
+2025-09-10T14:02:29.565Z gateway   INFO  req=a533df GET /orders/44168 200 84ms
+2025-09-10T14:02:35.815Z payments  INFO  req=54cdb3 charge ok amount=25082 provider_ms=302
+2025-09-10T14:02:35.841Z orders    INFO  req=54cdb3 order created id=48218 total=25082
+2025-09-10T14:02:35.845Z gateway   INFO  req=54cdb3 POST /checkout 200 207ms
+2025-09-10T14:02:43.277Z payments  INFO  req=09061e charge ok amount=24553 provider_ms=181
+2025-09-10T14:02:43.303Z orders    INFO  req=09061e order created id=48219 total=24553
+2025-09-10T14:02:43.307Z gateway   INFO  req=09061e POST /checkout 200 316ms
+2025-09-10T14:02:53.287Z gateway   INFO  req=d749b8 GET /products/sku-5652 200 22ms
+2025-09-10T14:03:00.407Z gateway   INFO  req=9dffd9 GET /orders/44734 200 44ms
+2025-09-10T14:03:07.590Z gateway   INFO  req=f3734a GET /products/sku-6439 200 11ms
+2025-09-10T14:03:15.000Z db-proxy  INFO  pool stats: active=28 idle=172 waiting=0 max=200
+2025-09-10T14:03:15.725Z gateway   INFO  req=72749e GET /products/sku-8408 200 26ms
+2025-09-10T14:03:23.374Z gateway   INFO  req=9ffa17 GET /products/sku-9275 200 27ms
+2025-09-10T14:03:34.379Z gateway   INFO  req=f974ac GET /products/sku-3724 200 47ms
+2025-09-10T14:03:40.963Z payments  INFO  req=387026 charge ok amount=32348 provider_ms=333
+2025-09-10T14:03:40.989Z orders    INFO  req=387026 order created id=48220 total=32348
+2025-09-10T14:03:40.993Z gateway   INFO  req=387026 POST /checkout 200 203ms
+2025-09-10T14:03:51.165Z payments  INFO  req=149c94 charge ok amount=45779 provider_ms=253
+2025-09-10T14:03:51.191Z orders    INFO  req=149c94 order created id=48221 total=45779
+2025-09-10T14:03:51.195Z gateway   INFO  req=149c94 POST /checkout 200 362ms
+2025-09-10T14:03:57.385Z payments  INFO  req=7a3a88 charge ok amount=36243 provider_ms=298
+2025-09-10T14:03:57.411Z orders    INFO  req=7a3a88 order created id=48222 total=36243
+2025-09-10T14:03:57.415Z gateway   INFO  req=7a3a88 POST /checkout 200 316ms
+2025-09-10T14:04:05.487Z gateway   INFO  req=4aa8d7 GET /orders/47442 200 32ms
+2025-09-10T14:04:11.053Z payments  INFO  req=0eb621 charge ok amount=39025 provider_ms=309
+2025-09-10T14:04:11.079Z orders    INFO  req=0eb621 order created id=48223 total=39025
+2025-09-10T14:04:11.083Z gateway   INFO  req=0eb621 POST /checkout 200 403ms
+2025-09-10T14:04:15.000Z db-proxy  INFO  pool stats: active=39 idle=161 waiting=0 max=200
+2025-09-10T14:04:18.900Z payments  INFO  req=89b943 charge ok amount=18646 provider_ms=344
+2025-09-10T14:04:18.926Z orders    INFO  req=89b943 order created id=48224 total=18646
+2025-09-10T14:04:18.930Z gateway   INFO  req=89b943 POST /checkout 200 250ms
+2025-09-10T14:04:28.484Z gateway   INFO  req=7721f1 GET /products/sku-8310 200 15ms
+2025-09-10T14:04:33.531Z gateway   INFO  req=b0e811 GET /orders/41070 200 29ms
+2025-09-10T14:04:39.883Z gateway   INFO  req=fb0eca GET /products/sku-8438 200 27ms
+2025-09-10T14:04:44.777Z gateway   INFO  req=0d2c3b GET /products/sku-4285 200 37ms
+2025-09-10T14:04:54.708Z gateway   INFO  req=c5681a GET /products/sku-2321 200 24ms
+2025-09-10T14:05:00.501Z gateway   INFO  req=f9d5a8 GET /orders/46236 200 59ms
+2025-09-10T14:05:10.805Z payments  INFO  req=20fde4 charge ok amount=5163 provider_ms=333
+2025-09-10T14:05:10.831Z orders    INFO  req=20fde4 order created id=48225 total=5163
+2025-09-10T14:05:10.835Z gateway   INFO  req=20fde4 POST /checkout 200 408ms
+2025-09-10T14:05:15.000Z db-proxy  INFO  pool stats: active=45 idle=155 waiting=0 max=200
+2025-09-10T14:05:19.571Z payments  INFO  req=31a377 charge ok amount=23098 provider_ms=206
+2025-09-10T14:05:19.597Z orders    INFO  req=31a377 order created id=48226 total=23098
+2025-09-10T14:05:19.601Z gateway   INFO  req=31a377 POST /checkout 200 422ms
+2025-09-10T14:05:25.932Z gateway   INFO  req=28f834 GET /products/sku-4054 200 11ms
+2025-09-10T14:05:32.608Z payments  INFO  req=a48435 charge ok amount=1653 provider_ms=387
+2025-09-10T14:05:32.634Z orders    INFO  req=a48435 order created id=48227 total=1653
+2025-09-10T14:05:32.638Z gateway   INFO  req=a48435 POST /checkout 200 205ms
+2025-09-10T14:05:33.120Z db-proxy  INFO  config reload triggered by config-sync (revision r4809)
+2025-09-10T14:05:33.131Z db-proxy  INFO  config reload complete: no changes
+2025-09-10T14:05:39.318Z gateway   INFO  req=06a81c GET /orders/43354 200 84ms
+2025-09-10T14:05:49.312Z payments  INFO  req=e1a7ab charge ok amount=22575 provider_ms=318
+2025-09-10T14:05:49.338Z orders    INFO  req=e1a7ab order created id=48228 total=22575
+2025-09-10T14:05:49.342Z gateway   INFO  req=e1a7ab POST /checkout 200 264ms
+2025-09-10T14:05:55.761Z payments  INFO  req=e8ca4a charge ok amount=5390 provider_ms=383
+2025-09-10T14:05:55.787Z orders    INFO  req=e8ca4a order created id=48229 total=5390
+2025-09-10T14:05:55.791Z gateway   INFO  req=e8ca4a POST /checkout 200 316ms
+2025-09-10T14:06:03.496Z payments  INFO  req=a14186 charge ok amount=16611 provider_ms=196
+2025-09-10T14:06:03.522Z orders    INFO  req=a14186 order created id=48230 total=16611
+2025-09-10T14:06:03.526Z gateway   INFO  req=a14186 POST /checkout 200 222ms
+2025-09-10T14:06:09.741Z payments  INFO  req=12d24a charge ok amount=22585 provider_ms=409
+2025-09-10T14:06:09.767Z orders    INFO  req=12d24a order created id=48231 total=22585
+2025-09-10T14:06:09.771Z gateway   INFO  req=12d24a POST /checkout 200 339ms
+2025-09-10T14:06:15.000Z db-proxy  INFO  pool stats: active=39 idle=161 waiting=0 max=200
+2025-09-10T14:06:19.257Z gateway   INFO  req=54bf2b GET /products/sku-4127 200 11ms
+2025-09-10T14:06:25.596Z gateway   INFO  req=1b2bc1 GET /orders/45308 200 40ms
+2025-09-10T14:06:34.630Z gateway   INFO  req=db6d4c GET /orders/45144 200 72ms
+2025-09-10T14:06:44.097Z gateway   INFO  req=d2e8d6 GET /orders/43234 200 44ms
+2025-09-10T14:06:53.486Z gateway   INFO  req=e8a3bf GET /products/sku-2820 200 38ms
+2025-09-10T14:06:59.799Z gateway   INFO  req=c8078f GET /products/sku-3451 200 33ms
+2025-09-10T14:07:05.155Z payments  INFO  req=c8699d charge ok amount=13309 provider_ms=199
+2025-09-10T14:07:05.181Z orders    INFO  req=c8699d order created id=48232 total=13309
+2025-09-10T14:07:05.185Z gateway   INFO  req=c8699d POST /checkout 200 195ms
+2025-09-10T14:07:15.000Z db-proxy  INFO  pool stats: active=39 idle=161 waiting=0 max=200
+2025-09-10T14:07:15.097Z payments  INFO  req=98e370 charge ok amount=13352 provider_ms=198
+2025-09-10T14:07:15.123Z orders    INFO  req=98e370 order created id=48233 total=13352
+2025-09-10T14:07:15.127Z gateway   INFO  req=98e370 POST /checkout 200 310ms
+2025-09-10T14:07:20.542Z payments  INFO  req=ceee12 charge ok amount=8901 provider_ms=355
+2025-09-10T14:07:20.568Z orders    INFO  req=ceee12 order created id=48234 total=8901
+2025-09-10T14:07:20.572Z gateway   INFO  req=ceee12 POST /checkout 200 226ms
+2025-09-10T14:07:26.802Z gateway   INFO  req=ab2a1d GET /products/sku-3872 200 14ms
+2025-09-10T14:07:36.726Z payments  INFO  req=270793 charge ok amount=35557 provider_ms=371
+2025-09-10T14:07:36.752Z orders    INFO  req=270793 order created id=48235 total=35557
+2025-09-10T14:07:36.756Z gateway   INFO  req=270793 POST /checkout 200 264ms
+2025-09-10T14:07:41.054Z payments  INFO  req=c55f34 charge ok amount=36177 provider_ms=415
+2025-09-10T14:07:41.080Z orders    INFO  req=c55f34 order created id=48236 total=36177
+2025-09-10T14:07:41.084Z gateway   INFO  req=c55f34 POST /checkout 200 295ms
+2025-09-10T14:07:48.556Z payments  INFO  req=3d5afe charge ok amount=13708 provider_ms=390
+2025-09-10T14:07:48.582Z orders    INFO  req=3d5afe order created id=48237 total=13708
+2025-09-10T14:07:48.586Z gateway   INFO  req=3d5afe POST /checkout 200 260ms
+2025-09-10T14:07:59.409Z gateway   INFO  req=6e8a23 GET /orders/48068 200 53ms
+2025-09-10T14:08:04.174Z gateway   INFO  req=7a4460 GET /orders/46980 200 92ms
+2025-09-10T14:08:10.481Z inventory WARN  cache miss ratio 0.42 above threshold 0.30
+2025-09-10T14:08:10.689Z gateway   INFO  req=27f2af GET /orders/47490 200 32ms
+2025-09-10T14:08:15.000Z db-proxy  INFO  pool stats: active=31 idle=169 waiting=0 max=200
+2025-09-10T14:08:15.187Z gateway   INFO  req=6c7723 GET /products/sku-7906 200 27ms
+2025-09-10T14:08:24.562Z payments  INFO  req=c1c574 charge ok amount=41673 provider_ms=273
+2025-09-10T14:08:24.588Z orders    INFO  req=c1c574 order created id=48238 total=41673
+2025-09-10T14:08:24.592Z gateway   INFO  req=c1c574 POST /checkout 200 403ms
+2025-09-10T14:08:32.267Z payments  INFO  req=2ab0b5 charge ok amount=15881 provider_ms=309
+2025-09-10T14:08:32.293Z orders    INFO  req=2ab0b5 order created id=48239 total=15881
+2025-09-10T14:08:32.297Z gateway   INFO  req=2ab0b5 POST /checkout 200 413ms
+2025-09-10T14:08:36.166Z payments  INFO  req=4e484e charge ok amount=33369 provider_ms=259
+2025-09-10T14:08:36.192Z orders    INFO  req=4e484e order created id=48240 total=33369
+2025-09-10T14:08:36.196Z gateway   INFO  req=4e484e POST /checkout 200 376ms
+2025-09-10T14:08:46.212Z gateway   INFO  req=202fc3 GET /products/sku-2558 200 22ms
+2025-09-10T14:08:48.629Z inventory WARN  cache miss ratio 0.47 above threshold 0.30
+2025-09-10T14:08:51.169Z gateway   INFO  req=f5e615 GET /orders/46244 200 54ms
+2025-09-10T14:08:58.939Z gateway   INFO  req=3b0017 GET /products/sku-8310 200 382ms
+2025-09-10T14:09:09.607Z payments  INFO  req=f2377b charge ok amount=27467 provider_ms=216
+2025-09-10T14:09:09.633Z orders    INFO  req=f2377b order created id=48241 total=27467
+2025-09-10T14:09:09.637Z gateway   INFO  req=f2377b POST /checkout 200 300ms
+2025-09-10T14:09:15.000Z db-proxy  INFO  pool stats: active=35 idle=165 waiting=0 max=200
+2025-09-10T14:09:18.894Z payments  INFO  req=98ac29 charge ok amount=40756 provider_ms=322
+2025-09-10T14:09:18.920Z orders    INFO  req=98ac29 order created id=48242 total=40756
+2025-09-10T14:09:18.924Z gateway   INFO  req=98ac29 POST /checkout 200 291ms
+2025-09-10T14:09:26.628Z gateway   INFO  req=22fe8e GET /orders/44867 200 54ms
+2025-09-10T14:09:26.655Z inventory WARN  cache miss ratio 0.46 above threshold 0.30
+2025-09-10T14:09:37.774Z gateway   INFO  req=44db02 GET /products/sku-8310 200 53ms
+2025-09-10T14:09:48.648Z gateway   INFO  req=f93c98 GET /products/sku-6790 200 276ms
+2025-09-10T14:09:58.982Z gateway   INFO  req=237547 GET /orders/43476 200 31ms
+2025-09-10T14:10:04.715Z inventory WARN  cache miss ratio 0.45 above threshold 0.30
+2025-09-10T14:10:05.965Z gateway   INFO  req=5dcddb GET /products/sku-4748 200 379ms
+2025-09-10T14:10:14.738Z gateway   INFO  req=bd7bd6 GET /products/sku-5634 200 52ms
+2025-09-10T14:10:15.000Z db-proxy  INFO  pool stats: active=34 idle=166 waiting=0 max=200
+2025-09-10T14:10:19.522Z gateway   INFO  req=0417a0 GET /products/sku-8233 200 54ms
+2025-09-10T14:10:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:10:31.129Z gateway   INFO  req=6063a8 GET /products/sku-3451 200 315ms
+2025-09-10T14:10:36.205Z payments  INFO  req=1d1cc8 charge ok amount=20740 provider_ms=346
+2025-09-10T14:10:36.231Z orders    INFO  req=1d1cc8 order created id=48243 total=20740
+2025-09-10T14:10:36.235Z gateway   INFO  req=1d1cc8 POST /checkout 200 319ms
+2025-09-10T14:10:42.592Z inventory WARN  cache miss ratio 0.39 above threshold 0.30
+2025-09-10T14:10:43.016Z payments  INFO  req=807fdf charge ok amount=36367 provider_ms=169
+2025-09-10T14:10:43.042Z orders    INFO  req=807fdf order created id=48244 total=36367
+2025-09-10T14:10:43.046Z gateway   INFO  req=807fdf POST /checkout 200 320ms
+2025-09-10T14:10:50.988Z gateway   INFO  req=7b05f1 GET /products/sku-4039 200 502ms
+2025-09-10T14:10:55.675Z gateway   INFO  req=793e01 GET /products/sku-2321 200 17ms
+2025-09-10T14:11:01.594Z gateway   INFO  req=a5987b GET /products/sku-3724 200 525ms
+2025-09-10T14:11:07.329Z gateway   INFO  req=f52b48 GET /products/sku-3322 200 33ms
+2025-09-10T14:11:12.558Z payments  INFO  req=569583 charge ok amount=28605 provider_ms=176
+2025-09-10T14:11:12.584Z orders    INFO  req=569583 order created id=48245 total=28605
+2025-09-10T14:11:12.588Z gateway   INFO  req=569583 POST /checkout 200 270ms
+2025-09-10T14:11:15.000Z db-proxy  INFO  pool stats: active=46 idle=154 waiting=0 max=200
+2025-09-10T14:11:17.836Z payments  INFO  req=374462 charge ok amount=12137 provider_ms=178
+2025-09-10T14:11:17.862Z orders    INFO  req=374462 order created id=48246 total=12137
+2025-09-10T14:11:17.866Z gateway   INFO  req=374462 POST /checkout 200 335ms
+2025-09-10T14:11:20.479Z inventory WARN  cache miss ratio 0.47 above threshold 0.30
+2025-09-10T14:11:21.853Z gateway   INFO  req=2a602d GET /products/sku-6790 200 600ms
+2025-09-10T14:11:30.595Z gateway   INFO  req=4c2293 GET /products/sku-4462 200 245ms
+2025-09-10T14:11:34.197Z gateway   INFO  req=3360f9 GET /products/sku-3538 200 57ms
+2025-09-10T14:11:38.470Z payments  INFO  req=21895c charge ok amount=30561 provider_ms=322
+2025-09-10T14:11:38.496Z orders    INFO  req=21895c order created id=48247 total=30561
+2025-09-10T14:11:38.500Z gateway   INFO  req=21895c POST /checkout 200 423ms
+2025-09-10T14:11:44.986Z payments  INFO  req=b9a063 charge ok amount=12968 provider_ms=410
+2025-09-10T14:11:45.012Z orders    INFO  req=b9a063 order created id=48248 total=12968
+2025-09-10T14:11:45.016Z gateway   INFO  req=b9a063 POST /checkout 200 283ms
+2025-09-10T14:11:54.374Z payments  INFO  req=bea99e charge ok amount=32778 provider_ms=221
+2025-09-10T14:11:54.400Z orders    INFO  req=bea99e order created id=48249 total=32778
+2025-09-10T14:11:54.404Z gateway   INFO  req=bea99e POST /checkout 200 374ms
+2025-09-10T14:11:58.300Z inventory INFO  cache warmed, miss ratio 0.07
+2025-09-10T14:12:00.215Z gateway   INFO  req=1eb200 GET /products/sku-7881 200 12ms
+2025-09-10T14:12:03.512Z gateway   WARN  certificate for api.example.com expires in 9 days
+2025-09-10T14:12:10.638Z gateway   INFO  req=f6c13f GET /products/sku-6471 200 20ms
+2025-09-10T14:12:15.000Z db-proxy  INFO  pool stats: active=30 idle=170 waiting=0 max=200
+2025-09-10T14:12:20.404Z payments  INFO  req=b092fa charge ok amount=33454 provider_ms=379
+2025-09-10T14:12:20.430Z orders    INFO  req=b092fa order created id=48250 total=33454
+2025-09-10T14:12:20.434Z gateway   INFO  req=b092fa POST /checkout 200 254ms
+2025-09-10T14:12:28.637Z gateway   INFO  req=1370f7 GET /orders/41786 200 26ms
+2025-09-10T14:12:32.729Z gateway   INFO  req=3c3a70 GET /orders/45035 200 65ms
+2025-09-10T14:12:43.833Z gateway   INFO  req=2b5452 GET /products/sku-3724 200 23ms
+2025-09-10T14:12:49.703Z gateway   INFO  req=678ad9 GET /orders/44096 200 69ms
+2025-09-10T14:12:58.562Z gateway   INFO  req=bf152b GET /products/sku-4127 200 24ms
+2025-09-10T14:13:08.461Z gateway   INFO  req=a1c629 GET /orders/47504 200 67ms
+2025-09-10T14:13:15.000Z db-proxy  INFO  pool stats: active=44 idle=156 waiting=0 max=200
+2025-09-10T14:13:18.778Z payments  INFO  req=56138d charge ok amount=45437 provider_ms=236
+2025-09-10T14:13:18.804Z orders    INFO  req=56138d order created id=48251 total=45437
+2025-09-10T14:13:18.808Z gateway   INFO  req=56138d POST /checkout 200 327ms
+2025-09-10T14:13:27.428Z gateway   INFO  req=8d13fe GET /products/sku-4127 200 11ms
+2025-09-10T14:13:33.630Z payments  INFO  req=9e3d1e charge ok amount=19530 provider_ms=412
+2025-09-10T14:13:33.656Z orders    INFO  req=9e3d1e order created id=48252 total=19530
+2025-09-10T14:13:33.660Z gateway   INFO  req=9e3d1e POST /checkout 200 342ms
+2025-09-10T14:13:41.765Z gateway   INFO  req=cff8b0 GET /orders/47060 200 83ms
+2025-09-10T14:13:48.786Z gateway   INFO  req=43cb88 GET /products/sku-6841 200 21ms
+2025-09-10T14:13:58.149Z gateway   INFO  req=6f3a3e GET /products/sku-2558 200 40ms
+2025-09-10T14:14:04.355Z gateway   INFO  req=e8c3bc GET /products/sku-3872 200 40ms
+2025-09-10T14:14:10.166Z payments  INFO  req=2a2b23 charge ok amount=17143 provider_ms=234
+2025-09-10T14:14:10.192Z orders    INFO  req=2a2b23 order created id=48253 total=17143
+2025-09-10T14:14:10.196Z gateway   INFO  req=2a2b23 POST /checkout 200 210ms
+2025-09-10T14:14:15.000Z db-proxy  INFO  pool stats: active=42 idle=158 waiting=0 max=200
+2025-09-10T14:14:17.644Z gateway   INFO  req=9bc351 GET /products/sku-4127 200 43ms
+2025-09-10T14:14:25.827Z gateway   INFO  req=48bd2e GET /orders/43874 200 27ms
+2025-09-10T14:14:31.230Z payments  INFO  req=13488f charge ok amount=16625 provider_ms=210
+2025-09-10T14:14:31.256Z orders    INFO  req=13488f order created id=48254 total=16625
+2025-09-10T14:14:31.260Z gateway   INFO  req=13488f POST /checkout 200 245ms
+2025-09-10T14:14:38.540Z gateway   INFO  req=5396b0 GET /products/sku-6358 200 23ms
+2025-09-10T14:14:46.909Z gateway   INFO  req=87a9b9 GET /products/sku-8262 200 55ms
+2025-09-10T14:14:50.670Z gateway   INFO  req=eec703 GET /products/sku-5462 200 16ms
+2025-09-10T14:14:57.679Z gateway   INFO  req=a49b51 GET /products/sku-5634 200 18ms
+2025-09-10T14:15:08.637Z gateway   INFO  req=4b33dd GET /orders/47526 200 40ms
+2025-09-10T14:15:15.000Z db-proxy  INFO  pool stats: active=29 idle=171 waiting=0 max=200
+2025-09-10T14:15:17.693Z gateway   INFO  req=d65bf2 GET /products/sku-5652 200 45ms
+2025-09-10T14:15:28.636Z gateway   INFO  req=081021 GET /products/sku-4039 200 29ms
+2025-09-10T14:15:37.922Z gateway   INFO  req=33d9ce GET /products/sku-6790 200 52ms
+2025-09-10T14:15:48.750Z gateway   INFO  req=7d8e87 GET /orders/43114 200 68ms
+2025-09-10T14:15:56.960Z gateway   INFO  req=51d0a9 GET /orders/46596 200 52ms
+2025-09-10T14:16:07.159Z gateway   INFO  req=509839 GET /orders/48121 200 60ms
+2025-09-10T14:16:14.640Z gateway   INFO  req=d2f4a5 GET /products/sku-9308 200 51ms
+2025-09-10T14:16:15.000Z db-proxy  INFO  pool stats: active=40 idle=160 waiting=0 max=200
+2025-09-10T14:16:20.395Z payments  INFO  req=d44a24 charge ok amount=30834 provider_ms=209
+2025-09-10T14:16:20.421Z orders    INFO  req=d44a24 order created id=48255 total=30834
+2025-09-10T14:16:20.425Z gateway   INFO  req=d44a24 POST /checkout 200 351ms
+2025-09-10T14:16:27.198Z gateway   INFO  req=541448 GET /products/sku-8233 200 26ms
+2025-09-10T14:16:38.008Z payments  INFO  req=97a873 charge ok amount=19340 provider_ms=257
+2025-09-10T14:16:38.034Z orders    INFO  req=97a873 order created id=48256 total=19340
+2025-09-10T14:16:38.038Z gateway   INFO  req=97a873 POST /checkout 200 303ms
+2025-09-10T14:16:45.789Z gateway   INFO  req=7faa55 GET /products/sku-2321 200 28ms
+2025-09-10T14:16:50.456Z payments  INFO  req=50ba49 charge ok amount=41995 provider_ms=233
+2025-09-10T14:16:50.482Z orders    INFO  req=50ba49 order created id=48257 total=41995
+2025-09-10T14:16:50.486Z gateway   INFO  req=50ba49 POST /checkout 200 238ms
+2025-09-10T14:16:59.099Z payments  INFO  req=e2f95b charge ok amount=18875 provider_ms=379
+2025-09-10T14:16:59.125Z orders    INFO  req=e2f95b order created id=48258 total=18875
+2025-09-10T14:16:59.129Z gateway   INFO  req=e2f95b POST /checkout 200 180ms
+2025-09-10T14:17:00.040Z inventory INFO  stock sync finished: 12 skus updated
+2025-09-10T14:17:09.928Z gateway   INFO  req=a76487 GET /orders/46824 200 64ms
+2025-09-10T14:17:15.000Z db-proxy  INFO  pool stats: active=33 idle=167 waiting=0 max=200
+2025-09-10T14:17:19.158Z payments  INFO  req=792e5d charge ok amount=13760 provider_ms=234
+2025-09-10T14:17:19.184Z orders    INFO  req=792e5d order created id=48259 total=13760
+2025-09-10T14:17:19.188Z gateway   INFO  req=792e5d POST /checkout 200 206ms
+2025-09-10T14:17:22.669Z gateway   INFO  req=5dd4fe GET /orders/43095 200 71ms
+2025-09-10T14:17:32.807Z gateway   INFO  req=d89488 GET /products/sku-4054 200 30ms
+2025-09-10T14:17:42.080Z orders    INFO  service starting version=3.18.0 (previous 3.17.4) reason=deploy
+2025-09-10T14:17:44.178Z gateway   INFO  req=370446 GET /products/sku-8438 200 36ms
+2025-09-10T14:17:53.560Z payments  INFO  req=1357db charge ok amount=32704 provider_ms=185
+2025-09-10T14:17:53.586Z orders    INFO  req=1357db order created id=48260 total=32704
+2025-09-10T14:17:53.590Z gateway   INFO  req=1357db POST /checkout 200 403ms
+2025-09-10T14:17:59.158Z payments  INFO  req=397d72 charge ok amount=12001 provider_ms=287
+2025-09-10T14:17:59.184Z orders    INFO  req=397d72 order created id=48261 total=12001
+2025-09-10T14:17:59.188Z gateway   INFO  req=397d72 POST /checkout 200 260ms
+2025-09-10T14:18:09.184Z payments  INFO  req=27e317 charge ok amount=31968 provider_ms=273
+2025-09-10T14:18:09.210Z orders    INFO  req=27e317 order created id=48262 total=31968
+2025-09-10T14:18:09.214Z gateway   INFO  req=27e317 POST /checkout 200 385ms
+2025-09-10T14:18:13.218Z payments  INFO  req=072043 charge ok amount=16112 provider_ms=341
+2025-09-10T14:18:13.244Z orders    INFO  req=072043 order created id=48263 total=16112
+2025-09-10T14:18:13.248Z gateway   INFO  req=072043 POST /checkout 200 299ms
+2025-09-10T14:18:15.000Z db-proxy  INFO  pool stats: active=38 idle=162 waiting=0 max=200
+2025-09-10T14:18:19.038Z gateway   INFO  req=8f9e5c GET /products/sku-4285 200 12ms
+2025-09-10T14:18:20.655Z orders    INFO  version=3.18.0 healthy on 3/3 instances
+2025-09-10T14:18:29.684Z gateway   INFO  req=cdacfa GET /orders/47614 200 54ms
+2025-09-10T14:18:35.437Z gateway   INFO  req=a20694 GET /products/sku-7906 200 36ms
+2025-09-10T14:18:45.006Z gateway   INFO  req=1b0c5d GET /products/sku-8310 200 52ms
+2025-09-10T14:18:48.801Z gateway   INFO  req=4f31a0 GET /products/sku-5634 200 35ms
+2025-09-10T14:18:56.119Z payments  INFO  req=2b4529 charge ok amount=45869 provider_ms=176
+2025-09-10T14:18:56.145Z orders    INFO  req=2b4529 order created id=48264 total=45869
+2025-09-10T14:18:56.149Z gateway   INFO  req=2b4529 POST /checkout 200 216ms
+2025-09-10T14:19:05.952Z gateway   INFO  req=076db8 GET /orders/44551 200 66ms
+2025-09-10T14:19:15.000Z db-proxy  INFO  pool stats: active=40 idle=160 waiting=0 max=200
+2025-09-10T14:19:15.762Z payments  INFO  req=ed805e charge ok amount=14106 provider_ms=252
+2025-09-10T14:19:15.788Z orders    INFO  req=ed805e order created id=48265 total=14106
+2025-09-10T14:19:15.792Z gateway   INFO  req=ed805e POST /checkout 200 415ms
+2025-09-10T14:19:24.488Z payments  INFO  req=2e6c45 charge ok amount=40193 provider_ms=305
+2025-09-10T14:19:24.514Z orders    INFO  req=2e6c45 order created id=48266 total=40193
+2025-09-10T14:19:24.518Z gateway   INFO  req=2e6c45 POST /checkout 200 385ms
+2025-09-10T14:19:33.625Z payments  INFO  req=5a8802 charge ok amount=13390 provider_ms=199
+2025-09-10T14:19:33.651Z orders    INFO  req=5a8802 order created id=48267 total=13390
+2025-09-10T14:19:33.655Z gateway   INFO  req=5a8802 POST /checkout 200 259ms
+2025-09-10T14:19:41.695Z payments  INFO  req=862bce charge ok amount=40928 provider_ms=311
+2025-09-10T14:19:41.721Z orders    INFO  req=862bce order created id=48268 total=40928
+2025-09-10T14:19:41.725Z gateway   INFO  req=862bce POST /checkout 200 366ms
+2025-09-10T14:19:49.886Z payments  INFO  req=1f5e41 charge ok amount=35598 provider_ms=282
+2025-09-10T14:19:49.912Z orders    INFO  req=1f5e41 order created id=48269 total=35598
+2025-09-10T14:19:49.916Z gateway   INFO  req=1f5e41 POST /checkout 200 274ms
+2025-09-10T14:19:54.413Z gateway   INFO  req=eaaa9b GET /orders/47273 200 39ms
+2025-09-10T14:20:03.172Z payments  INFO  req=ff1c12 charge ok amount=25804 provider_ms=158
+2025-09-10T14:20:03.198Z orders    INFO  req=ff1c12 order created id=48270 total=25804
+2025-09-10T14:20:03.202Z gateway   INFO  req=ff1c12 POST /checkout 200 316ms
+2025-09-10T14:20:09.586Z payments  INFO  req=b679eb charge ok amount=21389 provider_ms=244
+2025-09-10T14:20:09.612Z orders    INFO  req=b679eb order created id=48271 total=21389
+2025-09-10T14:20:09.616Z gateway   INFO  req=b679eb POST /checkout 200 301ms
+2025-09-10T14:20:15.000Z db-proxy  INFO  pool stats: active=46 idle=154 waiting=0 max=200
+2025-09-10T14:20:15.360Z gateway   INFO  req=73e407 GET /products/sku-4462 200 47ms
+2025-09-10T14:20:20.343Z gateway   INFO  req=50dcec GET /orders/42055 200 29ms
+2025-09-10T14:20:26.665Z payments  INFO  req=0b5309 charge ok amount=8567 provider_ms=193
+2025-09-10T14:20:26.691Z orders    INFO  req=0b5309 order created id=48272 total=8567
+2025-09-10T14:20:26.695Z gateway   INFO  req=0b5309 POST /checkout 200 283ms
+2025-09-10T14:20:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:20:31.452Z gateway   INFO  req=0f6e8b GET /products/sku-2558 200 47ms
+2025-09-10T14:20:39.338Z gateway   INFO  req=f0a0b7 GET /products/sku-4748 200 23ms
+2025-09-10T14:20:45.303Z gateway   INFO  req=d43911 GET /products/sku-9275 200 37ms
+2025-09-10T14:20:54.694Z gateway   INFO  req=858d3f GET /orders/42003 200 69ms
+2025-09-10T14:21:02.800Z gateway   INFO  req=0c3662 GET /products/sku-6286 200 12ms
+2025-09-10T14:21:07.218Z db-proxy  INFO  config reload triggered by config-sync (revision r4812)
+2025-09-10T14:21:07.219Z db-proxy  INFO  config changed: pool.max 200 -> 20
+2025-09-10T14:21:07.240Z db-proxy  INFO  config reload complete: 1 change
+2025-09-10T14:21:13.631Z payments  INFO  req=d73933 charge ok amount=14352 provider_ms=159
+2025-09-10T14:21:13.657Z orders    INFO  req=d73933 order created id=48273 total=14352
+2025-09-10T14:21:13.661Z gateway   INFO  req=d73933 POST /checkout 200 361ms
+2025-09-10T14:21:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=16 max=20
+2025-09-10T14:21:23.712Z payments  INFO  req=f3e49a charge ok amount=16566 provider_ms=343
+2025-09-10T14:21:23.738Z orders    INFO  req=f3e49a order created id=48274 total=16566
+2025-09-10T14:21:23.742Z gateway   INFO  req=f3e49a POST /checkout 200 377ms
+2025-09-10T14:21:26.004Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 19 clients waiting
+2025-09-10T14:21:37.793Z payments  ERROR req=47838f timeout acquiring db connection after 3000ms
+2025-09-10T14:21:37.802Z orders    ERROR req=47838f payment failed: upstream timeout (payments)
+2025-09-10T14:21:37.805Z gateway   INFO  req=47838f POST /checkout 502 3180ms
+2025-09-10T14:21:44.885Z payments  INFO  req=ceead8 charge ok amount=1386 provider_ms=314
+2025-09-10T14:21:44.911Z orders    INFO  req=ceead8 order created id=48275 total=1386
+2025-09-10T14:21:44.915Z gateway   INFO  req=ceead8 POST /checkout 200 1580ms
+2025-09-10T14:21:54.037Z gateway   INFO  req=38504d GET /products/sku-2820 200 43ms
+2025-09-10T14:22:05.347Z orders    WARN  req=2bee2e db query slow 2437ms (waited for a connection)
+2025-09-10T14:22:05.350Z gateway   INFO  req=2bee2e GET /orders/47130 200 2477ms
+2025-09-10T14:22:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=19 max=20
+2025-09-10T14:22:15.550Z payments  INFO  req=bdf9c2 charge ok amount=32914 provider_ms=168
+2025-09-10T14:22:15.576Z orders    INFO  req=bdf9c2 order created id=48276 total=32914
+2025-09-10T14:22:15.580Z gateway   INFO  req=bdf9c2 POST /checkout 200 2695ms
+2025-09-10T14:22:25.195Z payments  ERROR req=f070a6 timeout acquiring db connection after 3000ms
+2025-09-10T14:22:25.204Z orders    ERROR req=f070a6 payment failed: upstream timeout (payments)
+2025-09-10T14:22:25.207Z gateway   INFO  req=f070a6 POST /checkout 502 3090ms
+2025-09-10T14:22:27.205Z orders    WARN  req=85cc10 db query slow 1381ms (waited for a connection)
+2025-09-10T14:22:27.208Z gateway   INFO  req=85cc10 GET /orders/43725 200 1421ms
+2025-09-10T14:22:32.809Z gateway   INFO  req=0727cc GET /products/sku-3451 200 43ms
+2025-09-10T14:22:40.511Z gateway   INFO  req=dc0c8d GET /orders/46490 200 36ms
+2025-09-10T14:22:45.686Z gateway   INFO  req=5e0b1c GET /products/sku-4748 200 27ms
+2025-09-10T14:22:58.014Z orders    WARN  req=69a86e db query slow 2300ms (waited for a connection)
+2025-09-10T14:22:58.017Z gateway   INFO  req=69a86e GET /orders/43603 200 2340ms
+2025-09-10T14:23:01.091Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 38 clients waiting
+2025-09-10T14:23:06.688Z gateway   INFO  req=481764 GET /products/sku-4054 200 47ms
+2025-09-10T14:23:13.357Z payments  ERROR req=2e36bb timeout acquiring db connection after 3000ms
+2025-09-10T14:23:13.363Z orders    ERROR req=2e36bb payment failed: upstream timeout (payments)
+2025-09-10T14:23:13.365Z gateway   INFO  req=2e36bb POST /checkout 502 3028ms
+2025-09-10T14:23:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=15 max=20
+2025-09-10T14:23:20.714Z payments  ERROR req=11fd6d timeout acquiring db connection after 3000ms
+2025-09-10T14:23:20.717Z orders    ERROR req=11fd6d payment failed: upstream timeout (payments)
+2025-09-10T14:23:20.720Z gateway   INFO  req=11fd6d POST /checkout 502 3051ms
+2025-09-10T14:23:27.229Z gateway   INFO  req=06de0e GET /products/sku-3724 200 54ms
+2025-09-10T14:23:33.215Z payments  INFO  req=1e3203 charge ok amount=14812 provider_ms=188
+2025-09-10T14:23:33.241Z orders    INFO  req=1e3203 order created id=48277 total=14812
+2025-09-10T14:23:33.245Z gateway   INFO  req=1e3203 POST /checkout 200 1221ms
+2025-09-10T14:23:40.317Z orders    WARN  req=b541c2 db query slow 1451ms (waited for a connection)
+2025-09-10T14:23:40.320Z gateway   INFO  req=b541c2 GET /orders/46176 200 1491ms
+2025-09-10T14:23:47.995Z payments  ERROR req=e47d40 timeout acquiring db connection after 3000ms
+2025-09-10T14:23:48.000Z orders    ERROR req=e47d40 payment failed: upstream timeout (payments)
+2025-09-10T14:23:48.004Z gateway   INFO  req=e47d40 POST /checkout 502 3118ms
+2025-09-10T14:23:51.227Z payments  INFO  req=0e08d7 charge ok amount=16009 provider_ms=162
+2025-09-10T14:23:51.253Z orders    INFO  req=0e08d7 order created id=48278 total=16009
+2025-09-10T14:23:51.257Z gateway   INFO  req=0e08d7 POST /checkout 200 1064ms
+2025-09-10T14:23:54.407Z payments  ERROR req=e47d40 timeout acquiring db connection after 3000ms
+2025-09-10T14:23:54.413Z orders    ERROR req=e47d40 payment failed: upstream timeout (payments)
+2025-09-10T14:23:54.416Z gateway   INFO  req=e47d40 POST /checkout 502 3087ms attempt=2
+2025-09-10T14:23:57.960Z orders    WARN  req=89760f db query slow 1590ms (waited for a connection)
+2025-09-10T14:23:57.963Z gateway   INFO  req=89760f GET /orders/41453 200 1630ms
+2025-09-10T14:24:05.952Z payments  INFO  req=b20554 charge ok amount=27123 provider_ms=328
+2025-09-10T14:24:05.978Z orders    INFO  req=b20554 order created id=48279 total=27123
+2025-09-10T14:24:05.982Z gateway   INFO  req=b20554 POST /checkout 200 2032ms
+2025-09-10T14:24:08.567Z gateway   INFO  req=89bf58 GET /products/sku-4054 200 59ms
+2025-09-10T14:24:12.213Z gateway   INFO  req=729c70 GET /products/sku-4285 200 60ms
+2025-09-10T14:24:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=27 max=20
+2025-09-10T14:24:19.379Z orders    WARN  req=4c1eb2 db query slow 1163ms (waited for a connection)
+2025-09-10T14:24:19.382Z gateway   INFO  req=4c1eb2 GET /orders/42298 200 1203ms
+2025-09-10T14:24:25.636Z gateway   INFO  req=db525d GET /products/sku-9308 200 14ms
+2025-09-10T14:24:34.609Z payments  INFO  req=628033 charge ok amount=46082 provider_ms=314
+2025-09-10T14:24:34.635Z orders    INFO  req=628033 order created id=48280 total=46082
+2025-09-10T14:24:34.639Z gateway   INFO  req=628033 POST /checkout 200 2220ms
+2025-09-10T14:24:37.525Z gateway   INFO  req=68fe2a GET /orders/45942 200 52ms
+2025-09-10T14:24:37.691Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 39 clients waiting
+2025-09-10T14:24:47.175Z payments  ERROR req=00dda5 timeout acquiring db connection after 3000ms
+2025-09-10T14:24:47.179Z orders    ERROR req=00dda5 payment failed: upstream timeout (payments)
+2025-09-10T14:24:47.184Z gateway   INFO  req=00dda5 POST /checkout 502 3090ms
+2025-09-10T14:24:50.803Z payments  ERROR req=b1afee timeout acquiring db connection after 3000ms
+2025-09-10T14:24:50.807Z orders    ERROR req=b1afee payment failed: upstream timeout (payments)
+2025-09-10T14:24:50.811Z gateway   INFO  req=b1afee POST /checkout 502 3088ms
+2025-09-10T14:24:54.759Z gateway   INFO  req=625abe GET /orders/46013 200 57ms
+2025-09-10T14:24:55.561Z payments  INFO  req=b1afee charge ok amount=23253 provider_ms=317
+2025-09-10T14:24:55.587Z orders    INFO  req=b1afee order created id=48281 total=23253
+2025-09-10T14:24:55.591Z gateway   INFO  req=b1afee POST /checkout 200 2580ms attempt=2
+2025-09-10T14:25:03.650Z orders    WARN  req=9778ea db query slow 964ms (waited for a connection)
+2025-09-10T14:25:03.653Z gateway   INFO  req=9778ea GET /orders/45106 200 1004ms
+2025-09-10T14:25:08.403Z gateway   INFO  req=5e40c4 GET /products/sku-8438 200 25ms
+2025-09-10T14:25:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=23 max=20
+2025-09-10T14:25:21.906Z payments  ERROR req=e9666f timeout acquiring db connection after 3000ms
+2025-09-10T14:25:21.907Z orders    ERROR req=e9666f payment failed: upstream timeout (payments)
+2025-09-10T14:25:21.912Z gateway   INFO  req=e9666f POST /checkout 502 3056ms
+2025-09-10T14:25:25.104Z gateway   INFO  req=e4fa13 GET /orders/47871 200 91ms
+2025-09-10T14:25:26.688Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 12 clients waiting
+2025-09-10T14:25:34.919Z gateway   INFO  req=6175a1 GET /products/sku-3633 200 53ms
+2025-09-10T14:25:40.636Z gateway   INFO  req=5ff67c GET /orders/47663 200 47ms
+2025-09-10T14:25:49.221Z gateway   INFO  req=997beb GET /products/sku-8310 200 15ms
+2025-09-10T14:26:02.499Z payments  ERROR req=4368f0 timeout acquiring db connection after 3000ms
+2025-09-10T14:26:02.507Z orders    ERROR req=4368f0 payment failed: upstream timeout (payments)
+2025-09-10T14:26:02.509Z gateway   INFO  req=4368f0 POST /checkout 502 3140ms
+2025-09-10T14:26:03.981Z gateway   INFO  req=4c4ccc GET /orders/46291 200 29ms
+2025-09-10T14:26:09.304Z orders    WARN  req=642597 db query slow 1106ms (waited for a connection)
+2025-09-10T14:26:09.307Z gateway   INFO  req=642597 GET /orders/41181 200 1146ms
+2025-09-10T14:26:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=35 max=20
+2025-09-10T14:26:18.512Z payments  INFO  req=e735a8 charge ok amount=6613 provider_ms=360
+2025-09-10T14:26:18.538Z orders    INFO  req=e735a8 order created id=48282 total=6613
+2025-09-10T14:26:18.542Z gateway   INFO  req=e735a8 POST /checkout 200 2381ms
+2025-09-10T14:26:20.588Z gateway   INFO  req=e44758 GET /products/sku-3872 200 59ms
+2025-09-10T14:26:26.712Z gateway   INFO  req=bbc534 GET /products/sku-2321 200 14ms
+2025-09-10T14:26:32.216Z orders    WARN  req=cca2d5 db query slow 881ms (waited for a connection)
+2025-09-10T14:26:32.219Z gateway   INFO  req=cca2d5 GET /orders/45004 200 921ms
+2025-09-10T14:26:33.954Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 30 clients waiting
+2025-09-10T14:26:39.757Z gateway   INFO  req=e52140 GET /orders/47762 200 23ms
+2025-09-10T14:26:47.866Z orders    WARN  req=a94610 db query slow 2395ms (waited for a connection)
+2025-09-10T14:26:47.869Z gateway   INFO  req=a94610 GET /orders/46545 200 2435ms
+2025-09-10T14:26:54.679Z payments  INFO  req=ada69a charge ok amount=12537 provider_ms=364
+2025-09-10T14:26:54.705Z orders    INFO  req=ada69a order created id=48283 total=12537
+2025-09-10T14:26:54.709Z gateway   INFO  req=ada69a POST /checkout 200 1813ms
+2025-09-10T14:26:57.715Z gateway   INFO  req=c8b8a2 GET /products/sku-3872 200 51ms
+2025-09-10T14:27:08.275Z orders    WARN  req=77f1b4 db query slow 1547ms (waited for a connection)
+2025-09-10T14:27:08.278Z gateway   INFO  req=77f1b4 GET /orders/48025 200 1587ms
+2025-09-10T14:27:12.903Z gateway   INFO  req=0e2244 GET /products/sku-6471 200 32ms
+2025-09-10T14:27:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=38 max=20
+2025-09-10T14:27:25.667Z payments  ERROR req=9df7d0 timeout acquiring db connection after 3000ms
+2025-09-10T14:27:25.675Z orders    ERROR req=9df7d0 payment failed: upstream timeout (payments)
+2025-09-10T14:27:25.679Z gateway   INFO  req=9df7d0 POST /checkout 502 3046ms
+2025-09-10T14:27:28.981Z gateway   INFO  req=28c07f GET /products/sku-5634 200 23ms
+2025-09-10T14:27:37.813Z gateway   INFO  req=ca1e9f GET /orders/46063 200 37ms
+2025-09-10T14:27:48.950Z gateway   INFO  req=c782bb GET /products/sku-9308 200 53ms
+2025-09-10T14:27:57.332Z gateway   INFO  req=b18909 GET /products/sku-9308 200 46ms
+2025-09-10T14:28:05.348Z gateway   INFO  req=b915ca GET /products/sku-1674 200 30ms
+2025-09-10T14:28:10.817Z gateway   INFO  req=46937b GET /products/sku-3265 200 32ms
+2025-09-10T14:28:10.919Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 9 clients waiting
+2025-09-10T14:28:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=16 max=20
+2025-09-10T14:28:21.071Z gateway   INFO  req=f4f694 GET /products/sku-8233 200 26ms
+2025-09-10T14:28:29.504Z gateway   INFO  req=0c4605 GET /products/sku-9920 200 33ms
+2025-09-10T14:28:41.540Z payments  ERROR req=4f8da1 timeout acquiring db connection after 3000ms
+2025-09-10T14:28:41.550Z orders    ERROR req=4f8da1 payment failed: upstream timeout (payments)
+2025-09-10T14:28:41.554Z gateway   INFO  req=4f8da1 POST /checkout 502 3075ms
+2025-09-10T14:28:46.281Z payments  INFO  req=50835e charge ok amount=42762 provider_ms=278
+2025-09-10T14:28:46.307Z orders    INFO  req=50835e order created id=48284 total=42762
+2025-09-10T14:28:46.311Z gateway   INFO  req=50835e POST /checkout 200 1199ms
+2025-09-10T14:28:50.777Z gateway   INFO  req=fa1b98 GET /products/sku-5634 200 34ms
+2025-09-10T14:28:55.348Z gateway   INFO  req=7b70fe GET /products/sku-4054 200 59ms
+2025-09-10T14:29:05.532Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 34 clients waiting
+2025-09-10T14:29:06.420Z gateway   INFO  req=b6afcf GET /products/sku-6358 200 59ms
+2025-09-10T14:29:13.280Z payments  ERROR req=3efc40 timeout acquiring db connection after 3000ms
+2025-09-10T14:29:13.292Z orders    ERROR req=3efc40 payment failed: upstream timeout (payments)
+2025-09-10T14:29:13.294Z gateway   INFO  req=3efc40 POST /checkout 502 3046ms
+2025-09-10T14:29:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=18 max=20
+2025-09-10T14:29:17.474Z payments  ERROR req=cabbe9 timeout acquiring db connection after 3000ms
+2025-09-10T14:29:17.482Z orders    ERROR req=cabbe9 payment failed: upstream timeout (payments)
+2025-09-10T14:29:17.484Z gateway   INFO  req=cabbe9 POST /checkout 502 3073ms
+2025-09-10T14:29:24.050Z gateway   INFO  req=9864dc GET /orders/48036 200 80ms
+2025-09-10T14:29:35.850Z payments  INFO  req=db60f8 charge ok amount=40281 provider_ms=176
+2025-09-10T14:29:35.876Z orders    INFO  req=db60f8 order created id=48285 total=40281
+2025-09-10T14:29:35.880Z gateway   INFO  req=db60f8 POST /checkout 200 1201ms
+2025-09-10T14:29:42.623Z gateway   INFO  req=7cf257 GET /orders/44046 200 86ms
+2025-09-10T14:29:50.402Z orders    INFO  service starting version=3.17.4 (previous 3.18.0) reason=rollback requested_by=oncall
+2025-09-10T14:29:51.762Z gateway   INFO  req=3f3bbe GET /products/sku-4054 200 18ms
+2025-09-10T14:30:04.993Z orders    WARN  req=2bf362 db query slow 2319ms (waited for a connection)
+2025-09-10T14:30:04.996Z gateway   INFO  req=2bf362 GET /orders/42190 200 2359ms
+2025-09-10T14:30:07.398Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 11 clients waiting
+2025-09-10T14:30:07.872Z orders    WARN  req=674b2b db query slow 1267ms (waited for a connection)
+2025-09-10T14:30:07.875Z gateway   INFO  req=674b2b GET /orders/45935 200 1307ms
+2025-09-10T14:30:10.626Z gateway   INFO  req=589206 GET /products/sku-8233 200 18ms
+2025-09-10T14:30:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=20 max=20
+2025-09-10T14:30:17.071Z gateway   INFO  req=aeb00b GET /orders/42069 200 47ms
+2025-09-10T14:30:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:30:30.601Z payments  ERROR req=c8ee74 timeout acquiring db connection after 3000ms
+2025-09-10T14:30:30.606Z orders    ERROR req=c8ee74 payment failed: upstream timeout (payments)
+2025-09-10T14:30:30.608Z gateway   INFO  req=c8ee74 POST /checkout 502 3099ms
+2025-09-10T14:30:31.335Z gateway   INFO  req=c44361 GET /products/sku-9920 200 17ms
+2025-09-10T14:30:39.795Z payments  ERROR req=c25132 timeout acquiring db connection after 3000ms
+2025-09-10T14:30:39.802Z orders    ERROR req=c25132 payment failed: upstream timeout (payments)
+2025-09-10T14:30:39.804Z gateway   INFO  req=c25132 POST /checkout 502 3055ms
+2025-09-10T14:30:41.090Z orders    INFO  version=3.17.4 healthy on 3/3 instances
+2025-09-10T14:30:44.868Z payments  ERROR req=c25132 timeout acquiring db connection after 3000ms
+2025-09-10T14:30:44.874Z orders    ERROR req=c25132 payment failed: upstream timeout (payments)
+2025-09-10T14:30:44.877Z gateway   INFO  req=c25132 POST /checkout 502 3149ms attempt=2
+2025-09-10T14:30:46.001Z payments  ERROR req=bb55bc timeout acquiring db connection after 3000ms
+2025-09-10T14:30:46.004Z orders    ERROR req=bb55bc payment failed: upstream timeout (payments)
+2025-09-10T14:30:46.007Z gateway   INFO  req=bb55bc POST /checkout 502 3183ms
+2025-09-10T14:30:49.528Z payments  INFO  req=bb55bc charge ok amount=23901 provider_ms=282
+2025-09-10T14:30:49.554Z orders    INFO  req=bb55bc order created id=48286 total=23901
+2025-09-10T14:30:49.558Z gateway   INFO  req=bb55bc POST /checkout 200 942ms attempt=2
+2025-09-10T14:30:52.368Z payments  INFO  req=1cbead charge ok amount=13825 provider_ms=170
+2025-09-10T14:30:52.394Z orders    INFO  req=1cbead order created id=48287 total=13825
+2025-09-10T14:30:52.398Z gateway   INFO  req=1cbead POST /checkout 200 1740ms
+2025-09-10T14:30:59.614Z gateway   INFO  req=368feb GET /products/sku-6358 200 27ms
+2025-09-10T14:31:00.017Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 26 clients waiting
+2025-09-10T14:31:07.439Z payments  INFO  req=15c76f charge ok amount=30779 provider_ms=329
+2025-09-10T14:31:07.465Z orders    INFO  req=15c76f order created id=48288 total=30779
+2025-09-10T14:31:07.469Z gateway   INFO  req=15c76f POST /checkout 200 2248ms
+2025-09-10T14:31:10.657Z gateway   INFO  req=b3a5f3 GET /products/sku-6286 200 52ms
+2025-09-10T14:31:14.357Z gateway   INFO  req=110048 GET /products/sku-9308 200 19ms
+2025-09-10T14:31:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=19 max=20
+2025-09-10T14:31:20.801Z gateway   INFO  req=6ab8f4 GET /orders/45643 200 92ms
+2025-09-10T14:31:25.421Z gateway   INFO  req=89fe96 GET /products/sku-6358 200 49ms
+2025-09-10T14:31:33.975Z payments  ERROR req=1868c7 timeout acquiring db connection after 3000ms
+2025-09-10T14:31:33.980Z orders    ERROR req=1868c7 payment failed: upstream timeout (payments)
+2025-09-10T14:31:33.984Z gateway   INFO  req=1868c7 POST /checkout 502 3080ms
+2025-09-10T14:31:37.214Z payments  INFO  req=1868c7 charge ok amount=38637 provider_ms=352
+2025-09-10T14:31:37.240Z orders    INFO  req=1868c7 order created id=48289 total=38637
+2025-09-10T14:31:37.244Z gateway   INFO  req=1868c7 POST /checkout 200 1348ms attempt=2
+2025-09-10T14:31:40.986Z gateway   INFO  req=deb5fe GET /products/sku-6358 200 24ms
+2025-09-10T14:31:49.231Z gateway   INFO  req=d5fc50 GET /orders/47500 200 93ms
+2025-09-10T14:31:55.582Z orders    WARN  req=3e0aae db query slow 1615ms (waited for a connection)
+2025-09-10T14:31:55.585Z gateway   INFO  req=3e0aae GET /orders/42716 200 1655ms
+2025-09-10T14:32:00.040Z inventory INFO  stock sync finished: 16 skus updated
+2025-09-10T14:32:04.919Z gateway   INFO  req=83b327 GET /orders/45695 200 48ms
+2025-09-10T14:32:12.167Z gateway   INFO  req=007f9c GET /products/sku-2321 200 10ms
+2025-09-10T14:32:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=19 max=20
+2025-09-10T14:32:17.129Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 26 clients waiting
+2025-09-10T14:32:21.281Z gateway   INFO  req=1de534 GET /orders/47125 200 82ms
+2025-09-10T14:32:34.684Z payments  INFO  req=705c56 charge ok amount=46730 provider_ms=304
+2025-09-10T14:32:34.710Z orders    INFO  req=705c56 order created id=48290 total=46730
+2025-09-10T14:32:34.714Z gateway   INFO  req=705c56 POST /checkout 200 2412ms
+2025-09-10T14:32:40.943Z gateway   INFO  req=b0f094 GET /products/sku-5462 200 29ms
+2025-09-10T14:32:53.786Z payments  ERROR req=519d36 timeout acquiring db connection after 3000ms
+2025-09-10T14:32:53.792Z orders    ERROR req=519d36 payment failed: upstream timeout (payments)
+2025-09-10T14:32:53.795Z gateway   INFO  req=519d36 POST /checkout 502 3036ms
+2025-09-10T14:33:01.922Z payments  INFO  req=747a7e charge ok amount=26206 provider_ms=187
+2025-09-10T14:33:01.948Z orders    INFO  req=747a7e order created id=48291 total=26206
+2025-09-10T14:33:01.952Z gateway   INFO  req=747a7e POST /checkout 200 1262ms
+2025-09-10T14:33:07.419Z gateway   INFO  req=830880 GET /orders/46202 200 50ms
+2025-09-10T14:33:11.911Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 29 clients waiting
+2025-09-10T14:33:12.238Z gateway   INFO  req=7d3714 GET /products/sku-6841 200 29ms
+2025-09-10T14:33:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=28 max=20
+2025-09-10T14:33:20.005Z payments  INFO  provider-status: degraded performance reported for region ap-south (we use eu-central), no action
+2025-09-10T14:33:23.161Z gateway   INFO  req=542bb2 GET /products/sku-3322 200 15ms
+2025-09-10T14:33:36.150Z payments  ERROR req=bd8286 timeout acquiring db connection after 3000ms
+2025-09-10T14:33:36.154Z orders    ERROR req=bd8286 payment failed: upstream timeout (payments)
+2025-09-10T14:33:36.159Z gateway   INFO  req=bd8286 POST /checkout 502 3017ms
+2025-09-10T14:33:38.863Z gateway   INFO  req=2de8b5 GET /products/sku-6790 200 49ms
+2025-09-10T14:33:48.995Z payments  INFO  req=29294b charge ok amount=5761 provider_ms=397
+2025-09-10T14:33:49.021Z orders    INFO  req=29294b order created id=48292 total=5761
+2025-09-10T14:33:49.025Z gateway   INFO  req=29294b POST /checkout 200 2406ms
+2025-09-10T14:33:57.867Z gateway   INFO  req=c9bd94 GET /products/sku-3872 200 48ms
+2025-09-10T14:34:06.726Z gateway   INFO  req=15e5d7 GET /products/sku-5634 200 45ms
+2025-09-10T14:34:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=38 max=20
+2025-09-10T14:34:16.343Z gateway   INFO  req=1e27a5 GET /products/sku-4285 200 32ms
+2025-09-10T14:34:23.231Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 25 clients waiting
+2025-09-10T14:34:24.701Z gateway   INFO  req=b6fb05 GET /products/sku-3633 200 12ms
+2025-09-10T14:34:31.944Z orders    WARN  req=b62aa7 db query slow 1018ms (waited for a connection)
+2025-09-10T14:34:31.947Z gateway   INFO  req=b62aa7 GET /orders/46479 200 1058ms
+2025-09-10T14:34:38.337Z gateway   INFO  req=c798a3 GET /products/sku-5139 200 20ms
+2025-09-10T14:34:45.980Z gateway   INFO  req=ff9566 GET /orders/42907 200 46ms
+2025-09-10T14:34:53.375Z payments  ERROR req=dec1e0 timeout acquiring db connection after 3000ms
+2025-09-10T14:34:53.378Z orders    ERROR req=dec1e0 payment failed: upstream timeout (payments)
+2025-09-10T14:34:53.381Z gateway   INFO  req=dec1e0 POST /checkout 502 3135ms
+2025-09-10T14:35:01.039Z gateway   INFO  req=95c886 GET /products/sku-6358 200 41ms
+2025-09-10T14:35:06.919Z payments  INFO  req=4564c1 charge ok amount=27293 provider_ms=299
+2025-09-10T14:35:06.945Z orders    INFO  req=4564c1 order created id=48293 total=27293
+2025-09-10T14:35:06.949Z gateway   INFO  req=4564c1 POST /checkout 200 1873ms
+2025-09-10T14:35:13.403Z gateway   INFO  req=3d5ff9 GET /products/sku-8233 200 48ms
+2025-09-10T14:35:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=31 max=20
+2025-09-10T14:35:23.769Z gateway   INFO  req=3f19ef GET /products/sku-6358 200 39ms
+2025-09-10T14:35:30.320Z payments  INFO  req=f8d6b4 charge ok amount=34163 provider_ms=174
+2025-09-10T14:35:30.346Z orders    INFO  req=f8d6b4 order created id=48294 total=34163
+2025-09-10T14:35:30.350Z gateway   INFO  req=f8d6b4 POST /checkout 200 2422ms
+2025-09-10T14:35:37.916Z orders    WARN  req=a291a2 db query slow 2081ms (waited for a connection)
+2025-09-10T14:35:37.919Z gateway   INFO  req=a291a2 GET /orders/47542 200 2121ms
+2025-09-10T14:35:41.518Z gateway   INFO  req=da3224 GET /orders/47114 200 84ms
+2025-09-10T14:35:45.240Z gateway   INFO  req=00df24 GET /products/sku-3633 200 39ms
+2025-09-10T14:35:51.880Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 8 clients waiting
+2025-09-10T14:35:57.686Z orders    WARN  req=4763a7 db query slow 1166ms (waited for a connection)
+2025-09-10T14:35:57.689Z gateway   INFO  req=4763a7 GET /orders/42380 200 1206ms
+2025-09-10T14:36:03.653Z orders    WARN  req=d2d4a8 db query slow 1939ms (waited for a connection)
+2025-09-10T14:36:03.656Z gateway   INFO  req=d2d4a8 GET /orders/44760 200 1979ms
+2025-09-10T14:36:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=9 max=20
+2025-09-10T14:36:15.146Z payments  ERROR req=3677a4 timeout acquiring db connection after 3000ms
+2025-09-10T14:36:15.149Z orders    ERROR req=3677a4 payment failed: upstream timeout (payments)
+2025-09-10T14:36:15.154Z gateway   INFO  req=3677a4 POST /checkout 502 3119ms
+2025-09-10T14:36:23.044Z gateway   INFO  req=ef501b GET /orders/42509 200 76ms
+2025-09-10T14:36:35.999Z payments  ERROR req=38f976 timeout acquiring db connection after 3000ms
+2025-09-10T14:36:36.007Z orders    ERROR req=38f976 payment failed: upstream timeout (payments)
+2025-09-10T14:36:36.011Z gateway   INFO  req=38f976 POST /checkout 502 3154ms
+2025-09-10T14:36:40.578Z payments  INFO  req=479532 charge ok amount=19186 provider_ms=183
+2025-09-10T14:36:40.604Z orders    INFO  req=479532 order created id=48295 total=19186
+2025-09-10T14:36:40.608Z gateway   INFO  req=479532 POST /checkout 200 1012ms
+2025-09-10T14:36:46.585Z gateway   INFO  req=97c239 GET /orders/44190 200 70ms
+2025-09-10T14:36:51.707Z gateway   INFO  req=411f13 GET /products/sku-8438 200 28ms
+2025-09-10T14:36:58.492Z payments  INFO  req=a49910 charge ok amount=13126 provider_ms=418
+2025-09-10T14:36:58.518Z orders    INFO  req=a49910 order created id=48296 total=13126
+2025-09-10T14:36:58.522Z gateway   INFO  req=a49910 POST /checkout 200 1199ms
+2025-09-10T14:37:05.945Z payments  ERROR req=9060b2 timeout acquiring db connection after 3000ms
+2025-09-10T14:37:05.950Z orders    ERROR req=9060b2 payment failed: upstream timeout (payments)
+2025-09-10T14:37:05.953Z gateway   INFO  req=9060b2 POST /checkout 502 3114ms
+2025-09-10T14:37:08.460Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 20 clients waiting
+2025-09-10T14:37:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=37 max=20
+2025-09-10T14:37:15.703Z payments  ERROR req=cc7f37 timeout acquiring db connection after 3000ms
+2025-09-10T14:37:15.708Z orders    ERROR req=cc7f37 payment failed: upstream timeout (payments)
+2025-09-10T14:37:15.710Z gateway   INFO  req=cc7f37 POST /checkout 502 3079ms
+2025-09-10T14:37:24.733Z payments  ERROR req=0be853 timeout acquiring db connection after 3000ms
+2025-09-10T14:37:24.743Z orders    ERROR req=0be853 payment failed: upstream timeout (payments)
+2025-09-10T14:37:24.745Z gateway   INFO  req=0be853 POST /checkout 502 3137ms
+2025-09-10T14:37:27.845Z gateway   INFO  req=0a899b GET /products/sku-5652 200 16ms
+2025-09-10T14:37:32.028Z gateway   INFO  req=6bb6f2 GET /products/sku-8438 200 43ms
+2025-09-10T14:37:38.402Z gateway   INFO  req=41be05 GET /products/sku-5634 200 55ms
+2025-09-10T14:37:45.916Z gateway   INFO  req=d3d912 GET /products/sku-3538 200 23ms
+2025-09-10T14:37:57.164Z orders    WARN  req=04e3c6 db query slow 1674ms (waited for a connection)
+2025-09-10T14:37:57.167Z gateway   INFO  req=04e3c6 GET /orders/48282 200 1714ms
+2025-09-10T14:38:07.641Z payments  INFO  req=18423e charge ok amount=19523 provider_ms=292
+2025-09-10T14:38:07.667Z orders    INFO  req=18423e order created id=48297 total=19523
+2025-09-10T14:38:07.671Z gateway   INFO  req=18423e POST /checkout 200 2541ms
+2025-09-10T14:38:12.863Z gateway   INFO  req=796375 GET /orders/47213 200 89ms
+2025-09-10T14:38:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=23 max=20
+2025-09-10T14:38:22.761Z payments  ERROR req=0db758 timeout acquiring db connection after 3000ms
+2025-09-10T14:38:22.773Z orders    ERROR req=0db758 payment failed: upstream timeout (payments)
+2025-09-10T14:38:22.775Z gateway   INFO  req=0db758 POST /checkout 502 3048ms
+2025-09-10T14:38:26.311Z payments  INFO  req=437e20 charge ok amount=36309 provider_ms=356
+2025-09-10T14:38:26.337Z orders    INFO  req=437e20 order created id=48298 total=36309
+2025-09-10T14:38:26.341Z gateway   INFO  req=437e20 POST /checkout 200 2542ms
+2025-09-10T14:38:30.646Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 34 clients waiting
+2025-09-10T14:38:33.670Z orders    WARN  req=33858c db query slow 2141ms (waited for a connection)
+2025-09-10T14:38:33.673Z gateway   INFO  req=33858c GET /orders/41463 200 2181ms
+2025-09-10T14:38:41.839Z payments  ERROR req=2cfc44 timeout acquiring db connection after 3000ms
+2025-09-10T14:38:41.844Z orders    ERROR req=2cfc44 payment failed: upstream timeout (payments)
+2025-09-10T14:38:41.846Z gateway   INFO  req=2cfc44 POST /checkout 502 3108ms
+2025-09-10T14:38:49.785Z gateway   INFO  req=6693f5 GET /orders/46813 200 53ms
+2025-09-10T14:38:55.173Z gateway   INFO  req=a851b1 GET /orders/44377 200 89ms
+2025-09-10T14:38:59.139Z gateway   INFO  req=3ea76b GET /products/sku-4039 200 40ms
+2025-09-10T14:39:10.232Z payments  INFO  req=4fd56a charge ok amount=44111 provider_ms=146
+2025-09-10T14:39:10.258Z orders    INFO  req=4fd56a order created id=48299 total=44111
+2025-09-10T14:39:10.262Z gateway   INFO  req=4fd56a POST /checkout 200 1203ms
+2025-09-10T14:39:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=17 max=20
+2025-09-10T14:39:17.603Z payments  INFO  req=1a9b2c charge ok amount=1557 provider_ms=240
+2025-09-10T14:39:17.629Z orders    INFO  req=1a9b2c order created id=48300 total=1557
+2025-09-10T14:39:17.633Z gateway   INFO  req=1a9b2c POST /checkout 200 2100ms
+2025-09-10T14:39:26.633Z gateway   INFO  req=9ad43e GET /products/sku-3322 200 45ms
+2025-09-10T14:39:33.578Z gateway   INFO  req=e376a9 GET /products/sku-9920 200 26ms
+2025-09-10T14:39:47.003Z payments  ERROR req=36799e timeout acquiring db connection after 3000ms
+2025-09-10T14:39:47.011Z orders    ERROR req=36799e payment failed: upstream timeout (payments)
+2025-09-10T14:39:47.015Z gateway   INFO  req=36799e POST /checkout 502 3073ms
+2025-09-10T14:39:48.063Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 31 clients waiting
+2025-09-10T14:39:53.774Z gateway   INFO  req=6c5716 GET /products/sku-4748 200 35ms
+2025-09-10T14:40:00.217Z gateway   INFO  req=73a2eb GET /products/sku-4462 200 51ms
+2025-09-10T14:40:08.675Z payments  ERROR req=f167bf timeout acquiring db connection after 3000ms
+2025-09-10T14:40:08.684Z orders    ERROR req=f167bf payment failed: upstream timeout (payments)
+2025-09-10T14:40:08.689Z gateway   INFO  req=f167bf POST /checkout 502 3177ms
+2025-09-10T14:40:12.077Z db-proxy  INFO  config reload triggered by config-sync (revision r4814)
+2025-09-10T14:40:12.078Z db-proxy  INFO  config changed: pool.idle_timeout 300s -> 120s
+2025-09-10T14:40:12.096Z db-proxy  INFO  config reload complete: 1 change
+2025-09-10T14:40:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=21 max=20
+2025-09-10T14:40:16.682Z payments  INFO  req=8e7316 charge ok amount=43889 provider_ms=302
+2025-09-10T14:40:16.708Z orders    INFO  req=8e7316 order created id=48301 total=43889
+2025-09-10T14:40:16.712Z gateway   INFO  req=8e7316 POST /checkout 200 931ms
+2025-09-10T14:40:20.028Z gateway   INFO  req=c4adb1 GET /products/sku-9920 200 48ms
+2025-09-10T14:40:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:40:31.197Z gateway   INFO  req=887ab0 GET /products/sku-2820 200 60ms
+2025-09-10T14:40:44.188Z payments  ERROR req=0bc7c4 timeout acquiring db connection after 3000ms
+2025-09-10T14:40:44.194Z orders    ERROR req=0bc7c4 payment failed: upstream timeout (payments)
+2025-09-10T14:40:44.197Z gateway   INFO  req=0bc7c4 POST /checkout 502 3016ms
+2025-09-10T14:40:51.160Z gateway   INFO  req=cebe05 GET /products/sku-6790 200 31ms
+2025-09-10T14:41:02.245Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 19 clients waiting
+2025-09-10T14:41:02.682Z payments  INFO  req=7414dd charge ok amount=25387 provider_ms=179
+2025-09-10T14:41:02.708Z orders    INFO  req=7414dd order created id=48302 total=25387
+2025-09-10T14:41:02.712Z gateway   INFO  req=7414dd POST /checkout 200 1098ms
+2025-09-10T14:41:13.341Z orders    WARN  req=b71ee5 db query slow 1384ms (waited for a connection)
+2025-09-10T14:41:13.344Z gateway   INFO  req=b71ee5 GET /orders/47568 200 1424ms
+2025-09-10T14:41:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=24 max=20
+2025-09-10T14:41:24.263Z payments  ERROR req=524cb6 timeout acquiring db connection after 3000ms
+2025-09-10T14:41:24.265Z orders    ERROR req=524cb6 payment failed: upstream timeout (payments)
+2025-09-10T14:41:24.270Z gateway   INFO  req=524cb6 POST /checkout 502 3064ms
+2025-09-10T14:41:30.235Z gateway   INFO  req=89f34f GET /products/sku-8310 200 29ms
+2025-09-10T14:41:36.930Z gateway   INFO  req=0117b9 GET /products/sku-8408 200 16ms
+2025-09-10T14:41:43.950Z payments  INFO  req=4b6e95 charge ok amount=21188 provider_ms=387
+2025-09-10T14:41:43.976Z orders    INFO  req=4b6e95 order created id=48303 total=21188
+2025-09-10T14:41:43.980Z gateway   INFO  req=4b6e95 POST /checkout 200 2254ms
+2025-09-10T14:41:50.018Z payments  INFO  req=6db467 charge ok amount=28584 provider_ms=295
+2025-09-10T14:41:50.044Z orders    INFO  req=6db467 order created id=48304 total=28584
+2025-09-10T14:41:50.048Z gateway   INFO  req=6db467 POST /checkout 200 1464ms
+2025-09-10T14:42:00.214Z payments  INFO  req=290a27 charge ok amount=9397 provider_ms=335
+2025-09-10T14:42:00.240Z orders    INFO  req=290a27 order created id=48305 total=9397
+2025-09-10T14:42:00.244Z gateway   INFO  req=290a27 POST /checkout 200 1394ms
+2025-09-10T14:42:10.527Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 14 clients waiting
+2025-09-10T14:42:11.537Z orders    WARN  req=0c6abb db query slow 2093ms (waited for a connection)
+2025-09-10T14:42:11.540Z gateway   INFO  req=0c6abb GET /orders/46598 200 2133ms
+2025-09-10T14:42:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=32 max=20
+2025-09-10T14:42:16.004Z gateway   INFO  req=9c77b5 GET /products/sku-4127 200 59ms
+2025-09-10T14:42:21.736Z gateway   INFO  req=0c493b GET /products/sku-6439 200 49ms
+2025-09-10T14:42:29.261Z orders    WARN  req=f0cab2 db query slow 2422ms (waited for a connection)
+2025-09-10T14:42:29.264Z gateway   INFO  req=f0cab2 GET /orders/48054 200 2462ms
+2025-09-10T14:42:35.239Z gateway   INFO  req=44e44b GET /products/sku-8408 200 34ms
+2025-09-10T14:42:43.750Z gateway   INFO  req=aab155 GET /products/sku-5712 200 35ms
+2025-09-10T14:42:54.990Z orders    WARN  req=75ff07 db query slow 1159ms (waited for a connection)
+2025-09-10T14:42:54.993Z gateway   INFO  req=75ff07 GET /orders/44874 200 1199ms
+2025-09-10T14:43:02.873Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 13 clients waiting
+2025-09-10T14:43:04.443Z gateway   INFO  req=09a435 GET /products/sku-5712 200 14ms
+2025-09-10T14:43:10.158Z gateway   INFO  req=9be5ce GET /orders/45435 200 41ms
+2025-09-10T14:43:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=17 max=20
+2025-09-10T14:43:15.943Z payments  INFO  req=8a9571 charge ok amount=15995 provider_ms=145
+2025-09-10T14:43:15.969Z orders    INFO  req=8a9571 order created id=48306 total=15995
+2025-09-10T14:43:15.973Z gateway   INFO  req=8a9571 POST /checkout 200 940ms
+2025-09-10T14:43:21.068Z orders    WARN  req=ffd81b db query slow 2264ms (waited for a connection)
+2025-09-10T14:43:21.071Z gateway   INFO  req=ffd81b GET /orders/42145 200 2304ms
+2025-09-10T14:43:30.711Z orders    WARN  req=653df1 db query slow 1598ms (waited for a connection)
+2025-09-10T14:43:30.714Z gateway   INFO  req=653df1 GET /orders/45803 200 1638ms
+2025-09-10T14:43:40.882Z payments  ERROR req=88f275 timeout acquiring db connection after 3000ms
+2025-09-10T14:43:40.886Z orders    ERROR req=88f275 payment failed: upstream timeout (payments)
+2025-09-10T14:43:40.889Z gateway   INFO  req=88f275 POST /checkout 502 3039ms
+2025-09-10T14:43:45.581Z gateway   INFO  req=ed710e GET /orders/43727 200 37ms
+2025-09-10T14:43:45.766Z payments  ERROR req=88f275 timeout acquiring db connection after 3000ms
+2025-09-10T14:43:45.772Z orders    ERROR req=88f275 payment failed: upstream timeout (payments)
+2025-09-10T14:43:45.775Z gateway   INFO  req=88f275 POST /checkout 502 3022ms attempt=2
+2025-09-10T14:43:48.597Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 37 clients waiting
+2025-09-10T14:43:52.236Z gateway   INFO  req=b35066 GET /products/sku-3724 200 40ms
+2025-09-10T14:43:58.028Z gateway   INFO  req=1c9c75 GET /orders/47257 200 56ms
+2025-09-10T14:44:09.061Z payments  INFO  req=b8a118 charge ok amount=25889 provider_ms=173
+2025-09-10T14:44:09.087Z orders    INFO  req=b8a118 order created id=48307 total=25889
+2025-09-10T14:44:09.091Z gateway   INFO  req=b8a118 POST /checkout 200 2341ms
+2025-09-10T14:44:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=10 max=20
+2025-09-10T14:44:17.313Z payments  ERROR req=20e257 timeout acquiring db connection after 3000ms
+2025-09-10T14:44:17.322Z orders    ERROR req=20e257 payment failed: upstream timeout (payments)
+2025-09-10T14:44:17.326Z gateway   INFO  req=20e257 POST /checkout 502 3161ms
+2025-09-10T14:44:21.464Z gateway   INFO  req=4b2dd5 GET /products/sku-3322 200 20ms
+2025-09-10T14:44:30.592Z payments  ERROR req=0f35b3 timeout acquiring db connection after 3000ms
+2025-09-10T14:44:30.596Z orders    ERROR req=0f35b3 payment failed: upstream timeout (payments)
+2025-09-10T14:44:30.600Z gateway   INFO  req=0f35b3 POST /checkout 502 3040ms
+2025-09-10T14:44:35.167Z payments  INFO  req=0f35b3 charge ok amount=15611 provider_ms=346
+2025-09-10T14:44:35.193Z orders    INFO  req=0f35b3 order created id=48308 total=15611
+2025-09-10T14:44:35.197Z gateway   INFO  req=0f35b3 POST /checkout 200 2050ms attempt=2
+2025-09-10T14:44:35.474Z gateway   INFO  req=a71cfa GET /products/sku-5634 200 52ms
+2025-09-10T14:44:38.927Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 37 clients waiting
+2025-09-10T14:44:45.956Z orders    WARN  req=b523ac db query slow 1000ms (waited for a connection)
+2025-09-10T14:44:45.959Z gateway   INFO  req=b523ac GET /orders/45062 200 1040ms
+2025-09-10T14:44:54.912Z gateway   INFO  req=f6f44c GET /products/sku-3265 200 35ms
+2025-09-10T14:45:03.018Z gateway   INFO  req=8aef65 GET /orders/41934 200 60ms
+2025-09-10T14:45:13.528Z gateway   INFO  req=6342b6 GET /orders/44582 200 86ms
+2025-09-10T14:45:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=26 max=20
+2025-09-10T14:45:21.569Z gateway   INFO  req=6b191a GET /products/sku-5712 200 34ms
+2025-09-10T14:45:29.695Z payments  INFO  req=e0e299 charge ok amount=23645 provider_ms=320
+2025-09-10T14:45:29.721Z orders    INFO  req=e0e299 order created id=48309 total=23645
+2025-09-10T14:45:29.725Z gateway   INFO  req=e0e299 POST /checkout 200 1605ms
+2025-09-10T14:45:34.802Z gateway   INFO  req=d60cfb GET /products/sku-8310 200 23ms
+2025-09-10T14:45:41.645Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 22 clients waiting
+2025-09-10T14:45:43.800Z gateway   INFO  req=d478eb GET /products/sku-5634 200 58ms
+2025-09-10T14:45:53.428Z gateway   INFO  req=1a0b5e GET /products/sku-5634 200 11ms
+2025-09-10T14:46:04.742Z gateway   INFO  req=299a77 GET /products/sku-4462 200 25ms
+2025-09-10T14:46:10.277Z payments  INFO  req=ff2bdf charge ok amount=5386 provider_ms=297
+2025-09-10T14:46:10.303Z orders    INFO  req=ff2bdf order created id=48310 total=5386
+2025-09-10T14:46:10.307Z gateway   INFO  req=ff2bdf POST /checkout 200 926ms
+2025-09-10T14:46:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=25 max=20
+2025-09-10T14:46:20.826Z payments  INFO  req=d504e5 charge ok amount=32920 provider_ms=182
+2025-09-10T14:46:20.852Z orders    INFO  req=d504e5 order created id=48311 total=32920
+2025-09-10T14:46:20.856Z gateway   INFO  req=d504e5 POST /checkout 200 1645ms
+2025-09-10T14:46:23.599Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 19 clients waiting
+2025-09-10T14:46:24.183Z gateway   INFO  req=d97cb4 GET /products/sku-2321 200 18ms
+2025-09-10T14:46:34.414Z gateway   INFO  req=9f785d GET /products/sku-6841 200 30ms
+2025-09-10T14:46:44.443Z gateway   INFO  req=bd8b31 GET /orders/44664 200 93ms
+2025-09-10T14:46:56.183Z payments  ERROR req=e29923 timeout acquiring db connection after 3000ms
+2025-09-10T14:46:56.187Z orders    ERROR req=e29923 payment failed: upstream timeout (payments)
+2025-09-10T14:46:56.192Z gateway   INFO  req=e29923 POST /checkout 502 3139ms
+2025-09-10T14:46:59.664Z gateway   INFO  req=add612 GET /products/sku-4054 200 29ms
+2025-09-10T14:47:00.040Z inventory INFO  stock sync finished: 10 skus updated
+2025-09-10T14:47:12.723Z orders    WARN  req=aa75df db query slow 2358ms (waited for a connection)
+2025-09-10T14:47:12.726Z gateway   INFO  req=aa75df GET /orders/47939 200 2398ms
+2025-09-10T14:47:14.702Z gateway   INFO  req=1d2ca2 GET /orders/41689 200 79ms
+2025-09-10T14:47:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=34 max=20
+2025-09-10T14:47:15.947Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 26 clients waiting
+2025-09-10T14:47:26.288Z payments  INFO  req=618406 charge ok amount=23660 provider_ms=283
+2025-09-10T14:47:26.314Z orders    INFO  req=618406 order created id=48312 total=23660
+2025-09-10T14:47:26.318Z gateway   INFO  req=618406 POST /checkout 200 1957ms
+2025-09-10T14:47:35.895Z payments  INFO  req=f28839 charge ok amount=25284 provider_ms=318
+2025-09-10T14:47:35.921Z orders    INFO  req=f28839 order created id=48313 total=25284
+2025-09-10T14:47:35.925Z gateway   INFO  req=f28839 POST /checkout 200 1306ms
+2025-09-10T14:47:42.339Z payments  ERROR req=96fbc1 timeout acquiring db connection after 3000ms
+2025-09-10T14:47:42.342Z orders    ERROR req=96fbc1 payment failed: upstream timeout (payments)
+2025-09-10T14:47:42.346Z gateway   INFO  req=96fbc1 POST /checkout 502 3031ms
+2025-09-10T14:47:43.344Z gateway   INFO  req=b0bca1 GET /orders/44715 200 60ms
+2025-09-10T14:47:52.143Z payments  INFO  req=709136 charge ok amount=34535 provider_ms=193
+2025-09-10T14:47:52.169Z orders    INFO  req=709136 order created id=48314 total=34535
+2025-09-10T14:47:52.173Z gateway   INFO  req=709136 POST /checkout 200 902ms
+2025-09-10T14:48:00.072Z orders    WARN  req=8112f2 db query slow 2314ms (waited for a connection)
+2025-09-10T14:48:00.075Z gateway   INFO  req=8112f2 GET /orders/44268 200 2354ms
+2025-09-10T14:48:02.725Z payments  INFO  req=aca745 charge ok amount=45750 provider_ms=376
+2025-09-10T14:48:02.751Z orders    INFO  req=aca745 order created id=48315 total=45750
+2025-09-10T14:48:02.755Z gateway   INFO  req=aca745 POST /checkout 200 1089ms
+2025-09-10T14:48:09.284Z orders    WARN  req=e1339c db query slow 1814ms (waited for a connection)
+2025-09-10T14:48:09.287Z gateway   INFO  req=e1339c GET /orders/47209 200 1854ms
+2025-09-10T14:48:11.665Z gateway   INFO  req=8a2566 GET /products/sku-2820 200 13ms
+2025-09-10T14:48:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=38 max=20
+2025-09-10T14:48:20.270Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 24 clients waiting
+2025-09-10T14:48:21.235Z payments  ERROR req=d2869c timeout acquiring db connection after 3000ms
+2025-09-10T14:48:21.244Z orders    ERROR req=d2869c payment failed: upstream timeout (payments)
+2025-09-10T14:48:21.249Z gateway   INFO  req=d2869c POST /checkout 502 3168ms
+2025-09-10T14:48:25.096Z gateway   INFO  req=dd13a7 GET /orders/42311 200 38ms
+2025-09-10T14:48:25.586Z payments  INFO  req=d2869c charge ok amount=37497 provider_ms=388
+2025-09-10T14:48:25.612Z orders    INFO  req=d2869c order created id=48316 total=37497
+2025-09-10T14:48:25.616Z gateway   INFO  req=d2869c POST /checkout 200 2517ms attempt=2
+2025-09-10T14:48:33.403Z orders    WARN  req=a7422e db query slow 2158ms (waited for a connection)
+2025-09-10T14:48:33.406Z gateway   INFO  req=a7422e GET /orders/43106 200 2198ms
+2025-09-10T14:48:44.781Z payments  ERROR req=70bd89 timeout acquiring db connection after 3000ms
+2025-09-10T14:48:44.793Z orders    ERROR req=70bd89 payment failed: upstream timeout (payments)
+2025-09-10T14:48:44.795Z gateway   INFO  req=70bd89 POST /checkout 502 3105ms
+2025-09-10T14:48:46.589Z gateway   INFO  req=9beac0 GET /orders/45195 200 57ms
+2025-09-10T14:48:48.625Z payments  INFO  req=70bd89 charge ok amount=21114 provider_ms=416
+2025-09-10T14:48:48.651Z orders    INFO  req=70bd89 order created id=48317 total=21114
+2025-09-10T14:48:48.655Z gateway   INFO  req=70bd89 POST /checkout 200 977ms attempt=2
+2025-09-10T14:48:56.208Z orders    WARN  req=4899bd db query slow 1524ms (waited for a connection)
+2025-09-10T14:48:56.211Z gateway   INFO  req=4899bd GET /orders/46492 200 1564ms
+2025-09-10T14:49:05.343Z gateway   INFO  req=36cb34 GET /products/sku-6841 200 22ms
+2025-09-10T14:49:11.554Z gateway   INFO  req=bf56af GET /products/sku-8438 200 35ms
+2025-09-10T14:49:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=22 max=20
+2025-09-10T14:49:16.065Z gateway   INFO  req=83f3d6 GET /products/sku-3538 200 24ms
+2025-09-10T14:49:22.446Z gateway   INFO  req=3b6abf GET /products/sku-8262 200 11ms
+2025-09-10T14:49:27.868Z gateway   INFO  req=1cb09c GET /products/sku-4127 200 33ms
+2025-09-10T14:49:39.986Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 14 clients waiting
+2025-09-10T14:49:40.378Z payments  INFO  req=765ecb charge ok amount=33067 provider_ms=339
+2025-09-10T14:49:40.404Z orders    INFO  req=765ecb order created id=48318 total=33067
+2025-09-10T14:49:40.408Z gateway   INFO  req=765ecb POST /checkout 200 2212ms
+2025-09-10T14:49:46.669Z gateway   INFO  req=c574d4 GET /products/sku-3872 200 37ms
+2025-09-10T14:50:00.084Z payments  ERROR req=b9fe35 timeout acquiring db connection after 3000ms
+2025-09-10T14:50:00.091Z orders    ERROR req=b9fe35 payment failed: upstream timeout (payments)
+2025-09-10T14:50:00.093Z gateway   INFO  req=b9fe35 POST /checkout 502 3186ms
+2025-09-10T14:50:04.131Z gateway   INFO  req=e3610c GET /products/sku-6841 200 26ms
+2025-09-10T14:50:10.933Z gateway   INFO  req=243fa7 GET /orders/42465 200 35ms
+2025-09-10T14:50:15.000Z db-proxy  INFO  pool stats: active=20 idle=0 waiting=24 max=20
+2025-09-10T14:50:22.862Z orders    WARN  req=8150f4 db query slow 1081ms (waited for a connection)
+2025-09-10T14:50:22.865Z gateway   INFO  req=8150f4 GET /orders/42074 200 1121ms
+2025-09-10T14:50:26.730Z gateway   INFO  req=698fb7 GET /products/sku-4285 200 47ms
+2025-09-10T14:50:30.000Z gateway   INFO  health: upstreams orders=ok payments=ok inventory=ok
+2025-09-10T14:50:37.497Z payments  ERROR req=a8aa0a timeout acquiring db connection after 3000ms
+2025-09-10T14:50:37.501Z orders    ERROR req=a8aa0a payment failed: upstream timeout (payments)
+2025-09-10T14:50:37.503Z gateway   INFO  req=a8aa0a POST /checkout 502 3011ms
+2025-09-10T14:50:39.125Z gateway   INFO  req=26a6a9 GET /products/sku-9920 200 26ms
+2025-09-10T14:50:44.486Z payments  ERROR req=a8aa0a timeout acquiring db connection after 3000ms
+2025-09-10T14:50:44.492Z orders    ERROR req=a8aa0a payment failed: upstream timeout (payments)
+2025-09-10T14:50:44.495Z gateway   INFO  req=a8aa0a POST /checkout 502 3146ms attempt=2
+2025-09-10T14:50:49.730Z orders    WARN  req=15b3bf db query slow 933ms (waited for a connection)
+2025-09-10T14:50:49.733Z gateway   INFO  req=15b3bf GET /orders/43212 200 973ms
+2025-09-10T14:50:56.827Z db-proxy  WARN  pool exhausted: 20/20 connections in use, 14 clients waiting
+2025-09-10T14:50:59.300Z payments  INFO  req=595bfd charge ok amount=15932 provider_ms=367
+2025-09-10T14:50:59.326Z orders    INFO  req=595bfd order created id=48319 total=15932
+2025-09-10T14:50:59.330Z gateway   INFO  req=595bfd POST /checkout 200 2300ms
+2025-09-10T14:51:02.611Z db-proxy  INFO  config reload triggered by config-sync (revision r4815)
+2025-09-10T14:51:02.612Z db-proxy  INFO  config changed: pool.max 20 -> 200
+2025-09-10T14:51:02.630Z db-proxy  INFO  config reload complete: 1 change
+2025-09-10T14:51:08.518Z payments  INFO  req=83c3ed charge ok amount=38819 provider_ms=268
+2025-09-10T14:51:08.544Z orders    INFO  req=83c3ed order created id=48320 total=38819
+2025-09-10T14:51:08.548Z gateway   INFO  req=83c3ed POST /checkout 200 310ms
+2025-09-10T14:51:13.025Z gateway   INFO  req=7d3d3d GET /products/sku-5712 200 16ms
+2025-09-10T14:51:15.000Z db-proxy  INFO  pool stats: active=32 idle=168 waiting=0 max=200
+2025-09-10T14:51:23.999Z gateway   INFO  req=ba0e5e GET /products/sku-3265 200 26ms
+2025-09-10T14:51:33.109Z payments  INFO  req=ade9aa charge ok amount=32487 provider_ms=247
+2025-09-10T14:51:33.135Z orders    INFO  req=ade9aa order created id=48321 total=32487
+2025-09-10T14:51:33.139Z gateway   INFO  req=ade9aa POST /checkout 200 372ms
+2025-09-10T14:51:42.100Z payments  INFO  req=18451f charge ok amount=15009 provider_ms=186
+2025-09-10T14:51:42.126Z orders    INFO  req=18451f order created id=48322 total=15009
+2025-09-10T14:51:42.130Z gateway   INFO  req=18451f POST /checkout 200 330ms
+2025-09-10T14:51:50.398Z gateway   INFO  req=8782c8 GET /products/sku-4907 200 16ms
+2025-09-10T14:51:57.664Z payments  INFO  req=2cfa17 charge ok amount=40296 provider_ms=320
+2025-09-10T14:51:57.690Z orders    INFO  req=2cfa17 order created id=48323 total=40296
+2025-09-10T14:51:57.694Z gateway   INFO  req=2cfa17 POST /checkout 200 254ms
+2025-09-10T14:52:04.271Z gateway   INFO  req=0233b8 GET /orders/47693 200 90ms
+2025-09-10T14:52:15.000Z db-proxy  INFO  pool stats: active=35 idle=165 waiting=0 max=200
+2025-09-10T14:52:15.580Z gateway   INFO  req=f00283 GET /products/sku-5139 200 35ms
+2025-09-10T14:52:20.946Z gateway   INFO  req=8e3ae2 GET /orders/43234 200 38ms
+2025-09-10T14:52:25.949Z payments  INFO  req=33e490 charge ok amount=37684 provider_ms=165
+2025-09-10T14:52:25.975Z orders    INFO  req=33e490 order created id=48324 total=37684
+2025-09-10T14:52:25.979Z gateway   INFO  req=33e490 POST /checkout 200 227ms
+2025-09-10T14:52:31.267Z gateway   INFO  req=451842 GET /products/sku-6841 200 55ms
+2025-09-10T14:52:41.964Z gateway   INFO  req=287690 GET /products/sku-1674 200 50ms
+2025-09-10T14:52:49.408Z gateway   INFO  req=9ecc98 GET /products/sku-7881 200 24ms
+2025-09-10T14:52:53.583Z gateway   INFO  req=323d90 GET /products/sku-3265 200 42ms
+2025-09-10T14:52:57.841Z gateway   INFO  req=03f159 GET /orders/47971 200 29ms
+2025-09-10T14:53:04.698Z gateway   INFO  req=704591 GET /orders/47552 200 73ms
+2025-09-10T14:53:15.000Z db-proxy  INFO  pool stats: active=49 idle=151 waiting=0 max=200
+2025-09-10T14:53:15.924Z payments  INFO  req=145d86 charge ok amount=23770 provider_ms=415
+2025-09-10T14:53:15.950Z orders    INFO  req=145d86 order created id=48325 total=23770
+2025-09-10T14:53:15.954Z gateway   INFO  req=145d86 POST /checkout 200 291ms
+2025-09-10T14:53:21.923Z gateway   INFO  req=4bfac4 GET /orders/41474 200 50ms
+2025-09-10T14:53:33.406Z payments  INFO  req=6b140a charge ok amount=23682 provider_ms=344
+2025-09-10T14:53:33.432Z orders    INFO  req=6b140a order created id=48326 total=23682
+2025-09-10T14:53:33.436Z gateway   INFO  req=6b140a POST /checkout 200 381ms
+2025-09-10T14:53:42.222Z gateway   INFO  req=eb3cde GET /orders/48006 200 32ms
+2025-09-10T14:53:50.374Z gateway   INFO  req=893491 GET /products/sku-9308 200 43ms
+2025-09-10T14:54:01.217Z payments  INFO  req=c0e460 charge ok amount=29843 provider_ms=172
+2025-09-10T14:54:01.243Z orders    INFO  req=c0e460 order created id=48327 total=29843
+2025-09-10T14:54:01.247Z gateway   INFO  req=c0e460 POST /checkout 200 411ms
+2025-09-10T14:54:05.317Z payments  INFO  req=c36815 charge ok amount=23269 provider_ms=233
+2025-09-10T14:54:05.343Z orders    INFO  req=c36815 order created id=48328 total=23269
+2025-09-10T14:54:05.347Z gateway   INFO  req=c36815 POST /checkout 200 266ms
+2025-09-10T14:54:10.920Z payments  INFO  req=7c0101 charge ok amount=28760 provider_ms=342
+2025-09-10T14:54:10.946Z orders    INFO  req=7c0101 order created id=48329 total=28760
+2025-09-10T14:54:10.950Z gateway   INFO  req=7c0101 POST /checkout 200 276ms
+2025-09-10T14:54:15.000Z db-proxy  INFO  pool stats: active=51 idle=149 waiting=0 max=200
+2025-09-10T14:54:19.315Z gateway   INFO  req=f37359 GET /orders/42575 200 37ms
+2025-09-10T14:54:28.862Z gateway   INFO  req=eadd3f GET /products/sku-6286 200 21ms
+2025-09-10T14:54:34.928Z gateway   INFO  req=f2d3aa GET /orders/45048 200 74ms
+2025-09-10T14:54:44.304Z gateway   INFO  req=fd3757 GET /orders/41765 200 47ms
+2025-09-10T14:54:53.853Z gateway   INFO  req=b50265 GET /orders/46353 200 57ms
+2025-09-10T14:54:58.659Z payments  INFO  req=c81835 charge ok amount=28109 provider_ms=360
+2025-09-10T14:54:58.685Z orders    INFO  req=c81835 order created id=48330 total=28109
+2025-09-10T14:54:58.689Z gateway   INFO  req=c81835 POST /checkout 200 224ms
+2025-09-10T14:55:06.754Z payments  INFO  req=6e306f charge ok amount=13476 provider_ms=314
+2025-09-10T14:55:06.780Z orders    INFO  req=6e306f order created id=48331 total=13476
+2025-09-10T14:55:06.784Z gateway   INFO  req=6e306f POST /checkout 200 333ms
+2025-09-10T14:55:10.813Z gateway   INFO  req=9195d1 GET /products/sku-3872 200 11ms
+2025-09-10T14:55:15.000Z db-proxy  INFO  pool stats: active=42 idle=158 waiting=0 max=200
+2025-09-10T14:55:20.199Z gateway   INFO  req=a2a913 GET /orders/46178 200 56ms
+2025-09-10T14:55:30.964Z payments  INFO  req=82174b charge ok amount=42620 provider_ms=198
+2025-09-10T14:55:30.990Z orders    INFO  req=82174b order created id=48332 total=42620
+2025-09-10T14:55:30.994Z gateway   INFO  req=82174b POST /checkout 200 249ms
+2025-09-10T14:55:38.398Z gateway   INFO  req=c674ca GET /products/sku-3724 200 31ms
+2025-09-10T14:55:45.869Z gateway   INFO  req=8cc4d2 GET /products/sku-4127 200 33ms
+2025-09-10T14:55:54.255Z payments  INFO  req=27d7e8 charge ok amount=18748 provider_ms=174
+2025-09-10T14:55:54.281Z orders    INFO  req=27d7e8 order created id=48333 total=18748
+2025-09-10T14:55:54.285Z gateway   INFO  req=27d7e8 POST /checkout 200 324ms
+2025-09-10T14:56:02.231Z gateway   INFO  req=306b73 GET /products/sku-9308 200 32ms
+2025-09-10T14:56:06.751Z payments  INFO  req=3a3911 charge ok amount=29092 provider_ms=396
+2025-09-10T14:56:06.777Z orders    INFO  req=3a3911 order created id=48334 total=29092
+2025-09-10T14:56:06.781Z gateway   INFO  req=3a3911 POST /checkout 200 197ms
+2025-09-10T14:56:15.000Z db-proxy  INFO  pool stats: active=41 idle=159 waiting=0 max=200
+2025-09-10T14:56:16.956Z gateway   INFO  req=5d1677 GET /orders/46978 200 89ms
+2025-09-10T14:56:27.315Z gateway   INFO  req=f0f428 GET /products/sku-5462 200 60ms
+2025-09-10T14:56:37.005Z gateway   INFO  req=2f8364 GET /orders/41325 200 54ms
+2025-09-10T14:56:41.308Z payments  INFO  req=ba87c5 charge ok amount=23174 provider_ms=348
+2025-09-10T14:56:41.334Z orders    INFO  req=ba87c5 order created id=48335 total=23174
+2025-09-10T14:56:41.338Z gateway   INFO  req=ba87c5 POST /checkout 200 355ms
+2025-09-10T14:56:45.379Z gateway   INFO  req=35d071 GET /products/sku-9308 200 31ms
+2025-09-10T14:56:55.727Z gateway   INFO  req=cee3a7 GET /orders/43800 200 34ms
+2025-09-10T14:57:06.765Z gateway   INFO  req=aab996 GET /products/sku-6439 200 10ms
+2025-09-10T14:57:15.000Z db-proxy  INFO  pool stats: active=33 idle=167 waiting=0 max=200
+2025-09-10T14:57:16.901Z gateway   INFO  req=c5db6a GET /orders/42785 200 33ms
+2025-09-10T14:57:25.157Z gateway   INFO  req=b9c154 GET /products/sku-2820 200 23ms
+2025-09-10T14:57:29.025Z gateway   INFO  req=863a78 GET /products/sku-8310 200 30ms
+2025-09-10T14:57:37.275Z gateway   INFO  req=57ef30 GET /products/sku-5712 200 22ms
+2025-09-10T14:57:45.809Z gateway   INFO  req=96ae56 GET /products/sku-8233 200 9ms
+2025-09-10T14:57:56.402Z gateway   INFO  req=2c57b8 GET /orders/46030 200 95ms
+2025-09-10T14:58:07.038Z gateway   INFO  req=6cbb19 GET /orders/45459 200 59ms
+2025-09-10T14:58:10.776Z gateway   INFO  req=41dd61 GET /products/sku-4054 200 11ms
+2025-09-10T14:58:15.000Z db-proxy  INFO  pool stats: active=48 idle=152 waiting=0 max=200
+2025-09-10T14:58:22.072Z payments  INFO  req=36532d charge ok amount=47672 provider_ms=231
+2025-09-10T14:58:22.098Z orders    INFO  req=36532d order created id=48336 total=47672
+2025-09-10T14:58:22.102Z gateway   INFO  req=36532d POST /checkout 200 367ms
+2025-09-10T14:58:30.919Z payments  INFO  req=888ad5 charge ok amount=15847 provider_ms=212
+2025-09-10T14:58:30.945Z orders    INFO  req=888ad5 order created id=48337 total=15847
+2025-09-10T14:58:30.949Z gateway   INFO  req=888ad5 POST /checkout 200 427ms
+2025-09-10T14:58:40.060Z gateway   INFO  req=d90a65 GET /products/sku-3538 200 57ms
+2025-09-10T14:58:44.216Z payments  INFO  req=9a20a4 charge ok amount=10941 provider_ms=315
+2025-09-10T14:58:44.242Z orders    INFO  req=9a20a4 order created id=48338 total=10941
+2025-09-10T14:58:44.246Z gateway   INFO  req=9a20a4 POST /checkout 200 312ms
+2025-09-10T14:58:49.244Z gateway   INFO  req=768c4c GET /products/sku-5634 200 50ms
+2025-09-10T14:58:54.982Z gateway   INFO  req=85a6bd GET /products/sku-3451 200 16ms
+2025-09-10T14:59:04.138Z gateway   INFO  req=c3caea GET /products/sku-5139 200 24ms
+2025-09-10T14:59:13.803Z payments  INFO  req=bbde9d charge ok amount=45715 provider_ms=358
+2025-09-10T14:59:13.829Z orders    INFO  req=bbde9d order created id=48339 total=45715
+2025-09-10T14:59:13.833Z gateway   INFO  req=bbde9d POST /checkout 200 287ms
+2025-09-10T14:59:15.000Z db-proxy  INFO  pool stats: active=50 idle=150 waiting=0 max=200
+2025-09-10T14:59:20.575Z payments  INFO  req=807e1b charge ok amount=2469 provider_ms=220
+2025-09-10T14:59:20.601Z orders    INFO  req=807e1b order created id=48340 total=2469
+2025-09-10T14:59:20.605Z gateway   INFO  req=807e1b POST /checkout 200 271ms
+2025-09-10T14:59:30.080Z payments  INFO  req=9a8295 charge ok amount=20063 provider_ms=396
+2025-09-10T14:59:30.106Z orders    INFO  req=9a8295 order created id=48341 total=20063
+2025-09-10T14:59:30.110Z gateway   INFO  req=9a8295 POST /checkout 200 307ms
+2025-09-10T14:59:39.602Z gateway   INFO  req=a80ae0 GET /orders/42172 200 40ms
+2025-09-10T14:59:45.541Z gateway   INFO  req=b0afb7 GET /orders/43563 200 77ms
+2025-09-10T14:59:50.070Z payments  INFO  req=af3189 charge ok amount=37976 provider_ms=344
+2025-09-10T14:59:50.096Z orders    INFO  req=af3189 order created id=48342 total=37976
+2025-09-10T14:59:50.100Z gateway   INFO  req=af3189 POST /checkout 200 201ms

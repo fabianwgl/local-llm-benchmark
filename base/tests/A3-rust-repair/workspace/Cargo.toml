@@ -1,0 +1,8 @@
+[package]
+name = "ringlog"
+version = "0.3.0"
+edition = "2021"
+description = "In-memory log analysis: a window over recent logfmt lines and latency statistics."
+publish = false
+
+[dependencies]

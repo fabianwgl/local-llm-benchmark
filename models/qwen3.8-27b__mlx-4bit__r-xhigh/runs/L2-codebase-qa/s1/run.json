@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "L2-codebase-qa",
+  "test_version": 1,
+  "test_hash": "7651ab1f0db8993a",
+  "category": "long",
+  "model": {
+    "key": "qwen/qwen3.8-27b",
+    "slug": "qwen3.8-27b__mlx-4bit__r-xhigh"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "completed",
+  "started": "2026-11-21T07:27:30+00:00",
+  "finished": "2026-11-21T07:50:33+00:00",
+  "wall_s": 1382.8,
+  "metrics": {
+    "prompt_tokens": 25994,
+    "completion_tokens": 8517,
+    "reasoning_chars": 27623,
+    "answer_chars": 754,
+    "ttft_s": 276.5513677919989,
+    "ttfa_s": 1343.8234457499966,
+    "total_s": 1381.0346226250003,
+    "gen_tps": 7.71129844000014,
+    "prompt_tps": 93.99338794646904,
+    "finish_reason": "stop"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 4535.5,
+    "swap_mb_after": 4431.5
+  },
+  "scripted": {
+    "points": 8.0,
+    "max": 8.0
+  }
+}

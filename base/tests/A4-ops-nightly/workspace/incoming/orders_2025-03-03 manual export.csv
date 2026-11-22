@@ -1,0 +1,4 @@
+order_id,ordered_on,customer,channel,shipping_cents,status
+W-10408,2025-03-03,"Rahimi, Bashir",web,495,paid
+P-30102,2025-03-03,Greta Lindqvist,phone,795,paid
+W-10409,2025-03-03,"Ngata, Aroha",web,495,paid

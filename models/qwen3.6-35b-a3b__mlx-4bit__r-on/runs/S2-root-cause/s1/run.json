@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "S2-root-cause",
+  "test_version": 1,
+  "test_hash": "af40ba80de0ab52c",
+  "category": "swe",
+  "model": {
+    "key": "qwen/qwen3.6-35b-a3b",
+    "slug": "qwen3.6-35b-a3b__mlx-4bit__r-on"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "completed",
+  "started": "2026-11-20T14:27:08+00:00",
+  "finished": "2026-11-20T14:28:40+00:00",
+  "wall_s": 91.8,
+  "metrics": {
+    "prompt_tokens": 3497,
+    "completion_tokens": 4459,
+    "reasoning_chars": 13221,
+    "answer_chars": 3232,
+    "ttft_s": 4.826287291999961,
+    "ttfa_s": 74.5963207079999,
+    "total_s": 91.22321662500008,
+    "gen_tps": 51.61063054467658,
+    "prompt_tps": 724.5735258646157,
+    "finish_reason": "stop"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 7493.62,
+    "swap_mb_after": 7477.62
+  },
+  "scripted": {
+    "points": 3.0,
+    "max": 3.0
+  }
+}

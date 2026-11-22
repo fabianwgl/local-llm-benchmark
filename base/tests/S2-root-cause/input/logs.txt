@@ -1,0 +1,30 @@
+2025-09-11T10:13:58.412Z INFO  req=8f21 GET /orders/4417 200 41ms
+2025-09-11T10:14:01.120Z INFO  req=8f25 GET /orders/5120 200 38ms
+2025-09-11T10:14:02.951Z WARN  req=8f2a order 4417 lookup: timeout after 800ms
+2025-09-11T10:14:02.953Z ERROR req=8f2a GET /orders/4417 500 803ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:14:03.394Z INFO  db slow query 1243ms: SELECT o.*, c.name, c.loyalty_tier, i.* FROM orders o ... [4417]
+2025-09-11T10:14:09.774Z ERROR req=8f31 GET /orders/4417 500 1ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:14:15.002Z INFO  req=8f33 GET /orders/5120 200 1ms
+2025-09-11T10:14:27.619Z ERROR req=8f3c GET /orders/4417 500 1ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:14:44.200Z INFO  req=8f40 GET /orders/3302 200 44ms
+2025-09-11T10:14:58.090Z ERROR req=8f47 GET /orders/4417 500 1ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:15:01.700Z ERROR req=8f49 GET /orders/4417 500 0ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:15:03.480Z INFO  req=8f4b GET /orders/4417 200 47ms
+2025-09-11T10:15:20.115Z INFO  req=8f52 GET /orders/4417 200 1ms
+2025-09-11T10:16:11.830Z INFO  req=8f60 GET /orders/3302 200 39ms
+2025-09-11T10:18:47.266Z INFO  req=8f7e GET /orders/5120 200 43ms
+2025-09-11T10:21:39.512Z INFO  nightly-export: batch 14/40 started (heavy read load on orders)
+2025-09-11T10:21:40.301Z WARN  req=8fa3 order 5120 lookup: timeout after 800ms
+2025-09-11T10:21:40.302Z ERROR req=8fa3 GET /orders/5120 500 802ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:21:40.655Z INFO  db slow query 1151ms: SELECT o.*, c.name, c.loyalty_tier, i.* FROM orders o ... [5120]
+2025-09-11T10:21:52.040Z ERROR req=8fa9 GET /orders/5120 500 1ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:22:05.377Z INFO  req=8fb0 GET /orders/4417 200 40ms
+2025-09-11T10:22:18.903Z ERROR req=8fb6 GET /orders/5120 500 0ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:22:31.125Z INFO  req=8fba GET /orders/9001 404 37ms NotFoundError: order 9001
+2025-09-11T10:22:38.480Z ERROR req=8fc1 GET /orders/5120 500 1ms TypeError: Cannot read properties of undefined (reading 'customer')
+2025-09-11T10:22:41.012Z INFO  req=8fc4 GET /orders/5120 200 45ms
+2025-09-11T10:23:02.558Z INFO  req=8fcf GET /orders/5120 200 1ms
+2025-09-11T10:24:10.301Z INFO  req=8fe2 GET /orders/4417 200 42ms
+2025-09-11T10:26:55.774Z INFO  nightly-export: batch 14/40 finished
+2025-09-11T10:27:30.090Z INFO  req=9004 GET /orders/3302 200 41ms
+2025-09-11T10:29:12.640Z INFO  req=9013 GET /orders/5120 200 44ms

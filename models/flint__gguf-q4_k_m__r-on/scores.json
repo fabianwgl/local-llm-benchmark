@@ -1,0 +1,95 @@
+{
+  "slug": "flint__gguf-q4_k_m__r-on",
+  "suite_version": "0.9.0",
+  "generated": "2026-11-22",
+  "core": 43.62530000000001,
+  "core_complete": false,
+  "categories": {
+    "agentic": 33.334,
+    "swe": 66.25,
+    "long": 35.0,
+    "general": 35.0,
+    "vision": null
+  },
+  "vision_na": true,
+  "tests": {
+    "A1-ts-bugfix": {
+      "score": 8.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A2-py-feature": {
+      "score": 0.667,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A3-rust-repair": {
+      "score": 0.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A4-ops-nightly": {
+      "score": 0.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "A5-ts-refactor": {
+      "score": 8.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S1-code-review": {
+      "score": 3.5,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S2-root-cause": {
+      "score": 3.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "S3-sql": {
+      "score": 10.0,
+      "state": "ok",
+      "spread": null
+    },
+    "S4-tools": {
+      "score": 10.0,
+      "state": "ok",
+      "spread": null
+    },
+    "L1-log-root-cause": {
+      "score": 0.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "L2-codebase-qa": {
+      "score": 7.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "G1-meeting-notes": {
+      "score": 4.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "G2-decision-memo": {
+      "score": 3.0,
+      "state": "judge_pending",
+      "spread": null
+    },
+    "V1-terminal-screenshot": {
+      "score": null,
+      "state": "na",
+      "spread": null
+    },
+    "V2-architecture-diagram": {
+      "score": null,
+      "state": "na",
+      "spread": null
+    }
+  },
+  "tool_call_validity": 0.9918367346938776,
+  "gen_tps": 37.35432986945041,
+  "suite_wall_s": 16972.3
+}

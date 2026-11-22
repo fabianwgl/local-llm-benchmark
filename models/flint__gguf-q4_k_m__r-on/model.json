@@ -1,0 +1,63 @@
+{
+  "slug": "flint__gguf-q4_k_m__r-on",
+  "key": "recursivesi/flint",
+  "identifier": "bench-flint__gguf-q4_k_m__r-on",
+  "display_name": "Flint",
+  "publisher": "recursivesi",
+  "architecture": "flint",
+  "format": "gguf",
+  "quantization": {
+    "name": "Q4_K_M",
+    "bits_per_weight": 4
+  },
+  "params": "40B",
+  "size_bytes": 24167253484,
+  "capabilities": {
+    "vision": false,
+    "trained_for_tool_use": true,
+    "reasoning": {
+      "allowed_options": [
+        "on"
+      ],
+      "default": "on"
+    }
+  },
+  "reasoning_level": "on",
+  "reasoning_effort_sent": null,
+  "load_config": {
+    "context_length": 80128,
+    "eval_batch_size": 2048,
+    "physical_batch_size": 512,
+    "parallel": 1,
+    "flash_attention": true,
+    "lazy_mode": "auto",
+    "context_checkpoints": 32,
+    "reasoning_budget_message": "",
+    "speculative_draft_mtp": false,
+    "speculative_draft_simple": false,
+    "speculative_draft_model": "",
+    "speculative_draft_max_tokens": 3,
+    "speculative_draft_min_tokens": 0,
+    "speculative_draft_min_continue_probability": 0,
+    "num_experts": 6,
+    "offload_kv_cache_to_gpu": true
+  },
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "updated": "2026-11-21T08:53:49+00:00",
+  "last_load_seconds": 15.2
+}

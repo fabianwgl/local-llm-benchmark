@@ -1,0 +1,47 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "V2-architecture-diagram",
+  "test_version": 1,
+  "test_hash": "e8a9e4970a9edc65",
+  "category": "vision",
+  "model": {
+    "key": "ternary-bonsai-2-27b",
+    "slug": "ternary-bonsai-2-27b__gguf-q2_0__r-on"
+  },
+  "seed": 1,
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "context_length": 80000,
+  "status": "ok",
+  "end_reason": "completed",
+  "started": "2026-11-20T22:20:34+00:00",
+  "finished": "2026-11-20T22:22:11+00:00",
+  "wall_s": 97.8,
+  "metrics": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 1161,
+    "reasoning_chars": 3015,
+    "answer_chars": 1353,
+    "ttft_s": 14.265740584000014,
+    "ttfa_s": 67.32035158399958,
+    "total_s": 97.36490470900026,
+    "gen_tps": 13.971259665784233,
+    "prompt_tps": 88.0430982607863,
+    "finish_reason": "stop"
+  },
+  "flags": {
+    "reloaded": false,
+    "tampered": [],
+    "swap_mb_before": 4667.0,
+    "swap_mb_after": 4667.0
+  },
+  "scripted": {
+    "points": 8.0,
+    "max": 8.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "bonsai-27b__mlx-2bit__r-on",
+  "key": "prism-ml/bonsai-27b",
+  "identifier": "bench-bonsai-27b__mlx-2bit__r-on",
+  "display_name": "Bonsai 27B",
+  "publisher": "prism-ml",
+  "architecture": "qwen3_5",
+  "format": "mlx",
+  "quantization": {
+    "name": "2bit",
+    "bits_per_weight": 2
+  },
+  "params": "27B",
+  "size_bytes": 8521076756,
+  "capabilities": {
+    "vision": true,
+    "trained_for_tool_use": true,
+    "reasoning": {
+      "allowed_options": [
+        "off",
+        "on"
+      ],
+      "default": "on"
+    }
+  },
+  "reasoning_level": "on",
+  "load_config": {
+    "context_length": 80000,
+    "parallel": 1
+  },
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "updated": "2026-11-21T18:54:23+00:00",
+  "last_load_seconds": 40.5,
+  "reasoning_effort_sent": null
+}

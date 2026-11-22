@@ -1,0 +1,22 @@
+{
+  "suite": "local-llm-bench",
+  "suite_version": "0.9.0",
+  "test": "V1-terminal-screenshot",
+  "test_version": 1,
+  "test_hash": "5a4d794fa1f7875b",
+  "category": "vision",
+  "model": {
+    "key": "recursivesi/flint",
+    "slug": "flint__gguf-q4_k_m__r-on"
+  },
+  "seed": 1,
+  "status": "na",
+  "end_reason": "no_vision",
+  "finished": "2026-11-21T13:37:54+00:00",
+  "metrics": {},
+  "flags": {},
+  "scripted": {
+    "points": null,
+    "max": 6.0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "ternary-bonsai-2-27b__gguf-q2_0__r-on",
+  "key": "ternary-bonsai-2-27b",
+  "identifier": "bench-ternary-bonsai-2-27b__gguf-q2_0__r-on",
+  "display_name": "Ternary Bonsai 2 27B",
+  "publisher": "prism-ml",
+  "architecture": "qwen35",
+  "format": "gguf",
+  "quantization": {
+    "name": "Q2_0",
+    "bits_per_weight": 2
+  },
+  "params": "27B",
+  "size_bytes": 8557154784,
+  "capabilities": {
+    "vision": true,
+    "trained_for_tool_use": true,
+    "reasoning": {
+      "allowed_options": [
+        "off",
+        "on"
+      ],
+      "default": "on"
+    }
+  },
+  "reasoning_level": "on",
+  "load_config": {
+    "context_length": 80128,
+    "eval_batch_size": 2048,
+    "physical_batch_size": 512,
+    "parallel": 1,
+    "flash_attention": true,
+    "lazy_mode": "auto",
+    "context_checkpoints": 32,
+    "reasoning_budget_message": "",
+    "speculative_draft_mtp": false,
+    "speculative_draft_simple": false,
+    "speculative_draft_model": "",
+    "speculative_draft_max_tokens": 3,
+    "speculative_draft_min_tokens": 0,
+    "speculative_draft_min_continue_probability": 0,
+    "offload_kv_cache_to_gpu": true
+  },
+  "sampler": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "repeat_penalty": 1.0
+  },
+  "host": {
+    "chip": "Apple M3 Pro",
+    "ram_gb": 36,
+    "os": "macOS 27.0.1",
+    "lmstudio_app": "0.4.28+2",
+    "engines": [
+      "llama.cpp-mac-arm64-apple-metal-advsimd@2.73.0",
+      "mlx-llm-mac-arm64-apple-metal-advsimd@1.14.0"
+    ]
+  },
+  "updated": "2026-11-20T14:51:18+00:00",
+  "reasoning_effort_sent": null,
+  "last_load_seconds": 5.9
+}
