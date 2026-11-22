@@ -14,6 +14,10 @@ models/*/runs/**
 !models/*/runs/**/
 !models/*/runs/**/run.json
 
+# Full judging evidence (reasons and quotes restate parts of the answer keys).
+# SCORECARD.md is the public version with points only.
+models/*/EVIDENCE.md
+
 # Working folder for blind judging packets (contains rubrics)
 judging/
 

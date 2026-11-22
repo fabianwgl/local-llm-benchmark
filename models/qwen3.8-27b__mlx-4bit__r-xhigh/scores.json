@@ -2,50 +2,50 @@
   "slug": "qwen3.8-27b__mlx-4bit__r-xhigh",
   "suite_version": "0.9.0",
   "generated": "2026-11-22",
-  "core": 36.975,
-  "core_complete": false,
+  "core": 49.525,
+  "core_complete": true,
   "categories": {
-    "agentic": 45.5,
-    "swe": 30.0,
-    "long": 40.0,
-    "general": 15.0,
-    "vision": 70.0
+    "agentic": 54.5,
+    "swe": 42.5,
+    "long": 50.0,
+    "general": 47.5,
+    "vision": 100.0
   },
   "vision_na": false,
   "tests": {
     "A1-ts-bugfix": {
-      "score": 7.625,
-      "state": "judge_pending",
+      "score": 8.625,
+      "state": "ok",
       "spread": null
     },
     "A2-py-feature": {
-      "score": 8.0,
-      "state": "judge_pending",
+      "score": 10.0,
+      "state": "ok",
       "spread": null
     },
     "A3-rust-repair": {
       "score": 0.0,
-      "state": "judge_pending",
+      "state": "ok",
       "spread": null
     },
     "A4-ops-nightly": {
-      "score": 0.0,
-      "state": "judge_pending",
+      "score": 0.5,
+      "state": "ok",
       "spread": null
     },
     "A5-ts-refactor": {
-      "score": 7.125,
-      "state": "judge_pending",
+      "score": 8.125,
+      "state": "ok",
       "spread": null
     },
     "S1-code-review": {
-      "score": 4.0,
-      "state": "judge_pending",
+      "score": 9.0,
+      "state": "ok",
       "spread": null
     },
     "S2-root-cause": {
       "score": 0.0,
-      "state": "judge_pending",
+      "state": "ok",
       "spread": null
     },
     "S3-sql": {
@@ -60,32 +60,32 @@
     },
     "L1-log-root-cause": {
       "score": 0.0,
-      "state": "judge_pending",
+      "state": "ok",
       "spread": null
     },
     "L2-codebase-qa": {
-      "score": 8.0,
-      "state": "judge_pending",
+      "score": 10.0,
+      "state": "ok",
       "spread": null
     },
     "G1-meeting-notes": {
       "score": 0.0,
-      "state": "judge_pending",
+      "state": "ok",
       "spread": null
     },
     "G2-decision-memo": {
-      "score": 3.0,
-      "state": "judge_pending",
+      "score": 9.5,
+      "state": "ok",
       "spread": null
     },
     "V1-terminal-screenshot": {
-      "score": 6.0,
-      "state": "judge_pending",
+      "score": 10.0,
+      "state": "ok",
       "spread": null
     },
     "V2-architecture-diagram": {
-      "score": 8.0,
-      "state": "judge_pending",
+      "score": 10.0,
+      "state": "ok",
       "spread": null
     }
   },

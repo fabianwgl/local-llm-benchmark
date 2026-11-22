@@ -378,7 +378,9 @@ def ingest_verdicts(root, models_dir, tests, judge_model, when):
 STATE_NOTE = {"judge_pending": "judge pending", "na": "n/a", "engine_failure": "engine failure", "not_run": "not run"}
 
 
-def render_scorecard(m, suite):
+def render_scorecard(m, suite, evidence=True):
+    """The scorecard. With evidence=False the judge's reasons and quotes are left out: they restate
+    parts of the answer keys, so the public SCORECARD.md carries points only (see write_reports)."""
     meta = m["meta"]
     host = meta.get("host") or {}
     q = meta.get("quantization") or {}
@@ -448,7 +450,7 @@ def render_scorecard(m, suite):
           ""]
     if m["stale"]:
         L += ["Runs ignored because their test changed afterwards: %s." % ", ".join(m["stale"]), ""]
-    L += ["## Evidence per test", ""]
+    L += ["## Evidence per test" if evidence else "## Points per check", ""]
     for r in m["rows"]:
         t = r["test"]
         for s in r["seeds"]:
@@ -464,9 +466,10 @@ def render_scorecard(m, suite):
                 L.append("")
                 for c in criteria_of(t):
                     e = (v.get("criteria") or {}).get(c["id"]) or {}
-                    line = "- `%s`: **%s** of %s. %s" % (c["id"], fmt(e.get("points"), 2), fmt(c["max"], 2),
-                                                         squeeze(e.get("reason")))
-                    if squeeze(e.get("quote")):
+                    line = "- `%s`: **%s** of %s." % (c["id"], fmt(e.get("points"), 2), fmt(c["max"], 2))
+                    if evidence:
+                        line += " " + squeeze(e.get("reason"))
+                    if evidence and squeeze(e.get("quote")):
                         line += " Quote: \"%s\"" % squeeze(e.get("quote"))[:300].replace("|", "\\|")
                     L.append(line)
             elif criteria_of(t):
@@ -578,7 +581,9 @@ def write_reports(root, models_dir, tests, suite, when):
     models = collect(models_dir, tests, suite)
     update_readme(root, render_readme_block(models, suite, when))
     for slug, m in models.items():
-        (Path(models_dir) / slug / "SCORECARD.md").write_text(render_scorecard(m, suite))
+        # SCORECARD.md is published; EVIDENCE.md (reasons and quotes) stays out of git.
+        (Path(models_dir) / slug / "SCORECARD.md").write_text(render_scorecard(m, suite, evidence=False))
+        (Path(models_dir) / slug / "EVIDENCE.md").write_text(render_scorecard(m, suite, evidence=True))
         write_json(Path(models_dir) / slug / "scores.json", {
             "slug": slug, "suite_version": suite["version"], "generated": when,
             "core": m["core"], "core_complete": m["core_complete"],

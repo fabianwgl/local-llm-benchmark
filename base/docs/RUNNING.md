@@ -43,7 +43,8 @@ B score --judge-model <judge id>     # validates verdicts, writes the reports
 Judging works best once two or more models have runs waiting, so that the anonymous packets stay
 anonymous.
 
-`B score` writes `LEADERBOARD.md`, every `models/<slug>/SCORECARD.md`, and the results block in
+`B score` writes `LEADERBOARD.md`, every `models/<slug>/SCORECARD.md` (points only, published) and
+`EVIDENCE.md` (the same with the judge's reasons and quotes, kept private), and the results block in
 `README.md` (between the `results:start` and `results:end` markers). It can be run at any time;
 before judging it shows provisional, scripted-only scores.
 
@@ -60,8 +61,8 @@ B check                # re-apply scripted checks to saved output (automatic whe
 ## Publishing
 
 The repository is public. `.gitignore` keeps the answer keys and raw runs out of it: each test's
-`hidden/`, `rubric.md` and `test.json`, everything under `models/*/runs/` except `run.json`, the
-`judging/` folder, and `.env`. Never force-add any of these. After judging, commit the regenerated
+`hidden/`, `rubric.md` and `test.json`, everything under `models/*/runs/` except `run.json`, every
+`models/*/EVIDENCE.md`, the `judging/` folder, and `.env`. Never force-add any of these. After judging, commit the regenerated
 reports and the new `ANALYSIS.md` files and push.
 
 ## Good to know

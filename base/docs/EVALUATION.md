@@ -12,7 +12,7 @@ one written months from now mean the same thing.
 | Scripted checks | `bench.py run` / `check` | `check.json` |
 | Build blind packets | `bench.py packet` | `judging/<batch>/<test>/<id>.md` |
 | Judge each packet | Claude, in the main session | `<id>.verdict.json` |
-| Validate, add up, report | `bench.py score` | `verdict.json`, `SCORECARD.md`, `LEADERBOARD.md` |
+| Validate, add up, report | `bench.py score` | `verdict.json`, `SCORECARD.md`, `EVIDENCE.md`, `LEADERBOARD.md` |
 | Write the analysis | Claude, after scores are final | `models/<slug>/ANALYSIS.md` |
 
 Claude never adds up scores and never edits `SCORECARD.md` or `LEADERBOARD.md`. Claude does not

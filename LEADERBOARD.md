@@ -6,11 +6,11 @@ Suite `local-llm-bench` v0.9.0 (not frozen yet). Core = 45% agentic coding + 30%
 
 | Model | Core | Agentic coding | Single-shot engineering | Long-context | General | Vision | Tool calls valid | Tokens/s | Suite time | Runs |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `qwen3.6-35b-a3b__mlx-4bit__r-on` | **46.5*** | 47.2 | 55 | 35 | 35 | 69.2 | 100% | 55.6 | 84 min | 1 |
-| `flint__gguf-q4_k_m__r-on` | **43.6*** | 33.3 | 66.2 | 35 | 35 | n/a | 99% | 37.4 | 283 min | 1 |
-| `qwen3.8-27b__mlx-4bit__r-xhigh` | **37*** | 45.5 | 30 | 40 | 15 | 70 | 99% | 8.8 | 625 min | 1 |
-| `bonsai-27b__mlx-2bit__r-on` | **31.4*** | 23.7 | 32.5 | 50 | 35 | 69.2 | 99% | 16 | 291 min | 1 |
-| `ternary-bonsai-2-27b__gguf-q2_0__r-on` | **28.8*** | 29.1 | 30 | 35 | 15 | 70 | 100% | 13 | 447 min | 1 |
+| `qwen3.6-35b-a3b__mlx-4bit__r-on` | **64.2** | 56.2 | 76.2 | 45 | 92.5 | 94.2 | 100% | 55.6 | 84 min | 1 |
+| `flint__gguf-q4_k_m__r-on` | **61.3** | 40.3 | 93.8 | 40 | 90 | n/a | 99% | 37.4 | 283 min | 1 |
+| `qwen3.8-27b__mlx-4bit__r-xhigh` | **49.5** | 54.5 | 42.5 | 50 | 47.5 | 100 | 99% | 8.8 | 625 min | 1 |
+| `bonsai-27b__mlx-2bit__r-on` | **47.5** | 28.7 | 57.5 | 62.5 | 80 | 99.2 | 99% | 16 | 291 min | 1 |
+| `ternary-bonsai-2-27b__gguf-q2_0__r-on` | **40.5** | 33.1 | 42.5 | 42.5 | 65 | 97.5 | 100% | 13 | 447 min | 1 |
 
-- `*` provisional: not every test has been run and judged for that model.
 - Models with one run per test carry sampling noise of a few points; treat small gaps as ties. MLX models do not honour the seed, so their runs are samples, not replays.
+- Judged by: claude-fable-5-2.
